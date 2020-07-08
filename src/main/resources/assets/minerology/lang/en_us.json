@@ -16,5 +16,11 @@
   "item.minerology.chromium_ingot": "Chromium Ingot",
   "item.minerology.cobalt_ingot": "Cobalt Ingot",
   "item.minerology.copernicium_ingot": "Copernicium Ingot",
+  "item.minerology.copper_ingot": "Copper Ingot",
+  "item.minerology.curium_ingot": "Curium Ingot",
+  "item.minerology.darmstadtium_ingot": "Darmstadium Ingot",
+  "item.minerology.dubnium_ingot": "Dubnium Ingot",
+  "item.minerology.dysprosium_ingot": "Dysprosium Ingot",
+  "item.minerology.einsteinium_ingot": "Einsteinium Ingot",
   "itemGroup.minerology_ores": "Ores"
 }

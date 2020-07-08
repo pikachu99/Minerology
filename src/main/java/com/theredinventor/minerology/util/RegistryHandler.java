@@ -38,6 +38,13 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Chromium_Ingot = ITEMS.register( "chromium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Cobalt_Ingot = ITEMS.register( "cobalt_ingot", ItemBase::new);
     public static final RegistryObject<Item> Copernicium_Ingot = ITEMS.register( "copernicium_ingot", ItemBase::new);
+
+    public static final RegistryObject<Item> Copper_Ingot = ITEMS.register( "copper_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Curium_Ingot = ITEMS.register( "curium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Darmstadium_Ingot = ITEMS.register( "darmstadtium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Dubnium_Ingot = ITEMS.register( "dubnium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Dysprosium_Ingot = ITEMS.register( "dysprosium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Einsteinium_Ingot = ITEMS.register( "einsteinium_ingot", ItemBase::new);
     // Blocks
     public static final RegistryObject<Block>  Actinium_Ore = BLOCKS.register("actinium_ore", ActiniumOre:: new);
 
