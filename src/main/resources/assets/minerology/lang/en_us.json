@@ -4,5 +4,9 @@
   "item.minerology.berylium_ingot": "Berylium Ingot",
   "item.minerology.aluminum_ingot": "Aluminum Ingot",
   "item.minerology.americium_ingot": "Americium Ingot",
+  "item.minerology.barium_ingot": "Barium Ingot",
+  "item.minerology.berkelium_ingot": "Berkelium Ingot",
+  "item.minerology.bismuth_ingot": "Bismuth Ingot",
+  "item.minerology.bohrium_ingot": "Bohrium Ingot",
   "itemGroup.minerology_ores": "Ores"
 }
