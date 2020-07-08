@@ -22,5 +22,11 @@
   "item.minerology.dubnium_ingot": "Dubnium Ingot",
   "item.minerology.dysprosium_ingot": "Dysprosium Ingot",
   "item.minerology.einsteinium_ingot": "Einsteinium Ingot",
+  "item.minerology.erbium_ingot": "Erbium Ingot",
+  "item.minerology.europiuum_ingot": "Europium Ingot",
+  "item.minerology.fermium_ingot": "Fermium Ingot",
+  "item.minerology.flerovium_ingot": "Flerovium Ingot",
+  "item.minerology.francium_ingot": "Francium Ingot",
+  "item.minerology.gadolinium_ingot": "Gadolinium Ingot",
   "itemGroup.minerology_ores": "Ores"
 }

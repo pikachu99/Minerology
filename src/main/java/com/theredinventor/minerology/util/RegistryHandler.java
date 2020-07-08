@@ -45,6 +45,14 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Dubnium_Ingot = ITEMS.register( "dubnium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Dysprosium_Ingot = ITEMS.register( "dysprosium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Einsteinium_Ingot = ITEMS.register( "einsteinium_ingot", ItemBase::new);
+
+    public static final RegistryObject<Item> Erbium_Ingot = ITEMS.register( "erbium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Europium_Ingot = ITEMS.register( "europium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Fermium_Ingot = ITEMS.register( "fermium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Flerovium_Ingot = ITEMS.register( "flerovium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Francium_Ingot = ITEMS.register( "francium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Gadolinium_Ingot = ITEMS.register( "gadolinium_ingot", ItemBase::new);
+
     // Blocks
     public static final RegistryObject<Block>  Actinium_Ore = BLOCKS.register("actinium_ore", ActiniumOre:: new);
 
