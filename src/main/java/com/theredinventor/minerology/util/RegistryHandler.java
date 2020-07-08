@@ -53,6 +53,28 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Francium_Ingot = ITEMS.register( "francium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Gadolinium_Ingot = ITEMS.register( "gadolinium_ingot", ItemBase::new);
 
+
+    public static final RegistryObject<Item> Gallium_Ingot = ITEMS.register( "gallium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Hafnium_Ingot = ITEMS.register( "hafnium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Hassium_Ingot = ITEMS.register( "hassium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Holmium_Ingot = ITEMS.register( "holmium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Indium_Ingot = ITEMS.register( "indium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Iridium_Ingot = ITEMS.register( "iridium_ingot", ItemBase::new);
+
+
+    public static final RegistryObject<Item> Lanthanum_Ingot = ITEMS.register( "lanthanum_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Lawrencium_Ingot = ITEMS.register( "lawrencium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Lead_Ingot = ITEMS.register( "lead_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Lithium_Ingot = ITEMS.register( "lithium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Livermorium_Ingot = ITEMS.register( "livermorium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Lutetium_Ingot = ITEMS.register( "lutetium_ingot", ItemBase::new);
+
+    public static final RegistryObject<Item> Magnesium_Ingot = ITEMS.register( "magnesium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Manganese_Ingot = ITEMS.register( "manganese_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Meithnerium_Ingot = ITEMS.register( "meithnerium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Mendelevium_Ingot = ITEMS.register( "mendelevium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Mercury_Ingot = ITEMS.register( "mercury_ingot", ItemBase::new);
+
     // Blocks
     public static final RegistryObject<Block>  Actinium_Ore = BLOCKS.register("actinium_ore", ActiniumOre:: new);
 
