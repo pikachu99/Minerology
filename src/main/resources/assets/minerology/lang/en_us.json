@@ -8,5 +8,13 @@
   "item.minerology.berkelium_ingot": "Berkelium Ingot",
   "item.minerology.bismuth_ingot": "Bismuth Ingot",
   "item.minerology.bohrium_ingot": "Bohrium Ingot",
+  "item.minerology.cadmium_ingot": "Cadmium Ingot",
+  "item.minerology.caesium_ingot": "Caesium Ingot",
+  "item.minerology.calcium_ingot": "Calcium Ingot",
+  "item.minerology.californium_ingot": "Californium Ingot",
+  "item.minerology.cerium_ingot": "Cerium Ingot",
+  "item.minerology.chromium_ingot": "Chromium Ingot",
+  "item.minerology.cobalt_ingot": "Cobalt Ingot",
+  "item.minerology.copernicium_ingot": "Copernicium Ingot",
   "itemGroup.minerology_ores": "Ores"
 }
