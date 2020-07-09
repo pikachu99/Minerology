@@ -39,7 +39,7 @@ public class Minerology
         OreGeneration.generationOre();
     }
 
-    public static final ItemGroup TAB = new ItemGroup("minerology_ores"){
+    public static final ItemGroup TAB = new ItemGroup("minerology_metal"){
         @Override
         public ItemStack createIcon(){
             return new ItemStack(RegistryHandler.Actinium_Ingot.get());
