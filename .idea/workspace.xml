@@ -19,19 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71d6d5bf-aa7c-4972-87df-772f2c69558e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ActiniumBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/MolybdenumOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/blockstates/actinium_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/block/actinium_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/block/molybdenum_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/actinium_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/molybdenum_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minerology/loot_tables/blocks/actinium_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minerology/loot_tables/blocks/molybdenum_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/RegistryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/RegistryHandler.java" afterDir="false" />
+    <list default="true" id="8453a67e-94a1-4550-b2f6-ce25c3ec430b" name="Default Changelist" comment="Fixed an error.">
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/europium_ingot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/europium_ingot.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +39,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eIS1av8NC4qVuciASVslUGxD51" />
   <component name="ProjectLevelVcsManager">
@@ -97,6 +90,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fixed an error." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed an error." />
   </component>
   <component name="WindowStateProjectService">
     <state x="196" y="94" key="#Project_Structure" timestamp="1594007487079">
@@ -115,21 +110,25 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="452" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1594036465457" />
-    <state width="1373" height="281" key="GridCell.Tab.0.bottom" timestamp="1594084826606">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1594253942327">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594253942327" />
     <state width="1373" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1594084826606" />
-    <state width="1373" height="281" key="GridCell.Tab.0.center" timestamp="1594084826605">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1594253942326">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594253942326" />
     <state width="1373" height="281" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1594084826605" />
-    <state width="1373" height="281" key="GridCell.Tab.0.left" timestamp="1594084826605">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1594253942325">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594253942325" />
     <state width="1373" height="281" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1594084826605" />
-    <state width="1373" height="281" key="GridCell.Tab.0.right" timestamp="1594084826606">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1594253942326">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594253942326" />
     <state width="1373" height="281" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1594084826606" />
     <state x="296" y="263" key="IDE.errors.dialog" timestamp="1594041091813">
       <screen x="0" y="0" width="2560" height="1040" />
