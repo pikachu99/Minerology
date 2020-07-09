@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71d6d5bf-aa7c-4972-87df-772f2c69558e" name="Default Changelist" comment="" />
+    <list default="true" id="71d6d5bf-aa7c-4972-87df-772f2c69558e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ActiniumBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/MolybdenumOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/blockstates/actinium_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/block/actinium_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/block/molybdenum_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/actinium_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/molybdenum_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minerology/loot_tables/blocks/actinium_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minerology/loot_tables/blocks/molybdenum_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/RegistryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/RegistryHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,6 +135,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="296" y="263" key="IDE.errors.dialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1594041091813" />
+    <state x="525" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594240161910">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="525" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1594240161910" />
+    <state x="99" y="140" key="new project wizard" timestamp="1594235718016">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="99" y="140" key="new project wizard/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1594235718016" />
     <state x="372" y="242" key="run.anything.popup" timestamp="1594046176938">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
