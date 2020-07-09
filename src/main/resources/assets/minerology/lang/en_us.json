@@ -24,7 +24,7 @@
   "item.minerology.dysprosium_ingot": "Dysprosium Ingot",
   "item.minerology.einsteinium_ingot": "Einsteinium Ingot",
   "item.minerology.erbium_ingot": "Erbium Ingot",
-  "item.minerology.europiuum_ingot": "Europium Ingot",
+  "item.minerology.europium_ingot": "Europium Ingot",
   "item.minerology.fermium_ingot": "Fermium Ingot",
   "item.minerology.flerovium_ingot": "Flerovium Ingot",
   "item.minerology.francium_ingot": "Francium Ingot",
@@ -35,8 +35,8 @@
   "item.minerology.holmium_ingot": "Holmium Ingot",
   "item.minerology.indium_ingot": "Indium Ingot",
   "item.minerology.iridium_ingot": "Iridium Ingot",
-  "item.minerology.lanthanum_ingot": "LanthanumIngot",
-  "item.minerology.lawrencium_ingot": "LawrenciumIngot",
+  "item.minerology.lanthanum_ingot": "Lanthanum Ingot",
+  "item.minerology.lawrencium_ingot": "Lawrencium Ingot",
   "item.minerology.lead_ingot": "Lead Ingot",
   "item.minerology.lithium_ingot": "Lithium Ingot",
   "item.minerology.livermorium_ingot": "Livermorium Ingot",
@@ -91,6 +91,6 @@
   "item.minerology.yttrium_ingot": "Yttrium Ingot",
   "item.minerology.zinc_ingot": "Zinc Ingot",
   "item.minerology.zirconium_ingot": "Zirconium Ingot",
-  "item.minerology.rutherfordium_ingot": "Rutherfordium Ingot"
+  "item.minerology.rutherfordium_ingot": "Rutherfordium Ingot",
   "itemGroup.minerology_ores": "Ores"
 }
