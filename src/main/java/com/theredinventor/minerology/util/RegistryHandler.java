@@ -65,7 +65,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Lutetium_Ingot = ITEMS.register( "lutetium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Magnesium_Ingot = ITEMS.register( "magnesium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Manganese_Ingot = ITEMS.register( "manganese_ingot", ItemBase::new);
-    public static final RegistryObject<Item> Meithnerium_Ingot = ITEMS.register( "meithnerium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Meitnerium_Ingot = ITEMS.register( "meitnerium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Mendelevium_Ingot = ITEMS.register( "mendelevium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Mercury_Ingot = ITEMS.register( "mercury_ingot", ItemBase::new);  
     public static final RegistryObject<Item> Molybdenum_Ingot = ITEMS.register("molybdenum_ingot", ItemBase::new);
