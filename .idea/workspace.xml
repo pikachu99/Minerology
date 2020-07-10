@@ -19,6 +19,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="71d6d5bf-aa7c-4972-87df-772f2c69558e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/promethium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/protactinium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/radium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/rhenium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/rhodium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/roentgenium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/rubidium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/ruthenium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/rutherfordium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/samarium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/scandium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/seaborgium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/silver_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/sodium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/strontium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/tantalum_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/technetium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/tennessine_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/terbium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/thallium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/thorium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/thulium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/tin_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/titanium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/tungsten_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/uranium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/vanadium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/ytterbium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/yttrium_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/zinc_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/zirconium_ingot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      
     <list default="true" id="8453a67e-94a1-4550-b2f6-ce25c3ec430b" name="Default Changelist" comment="Fixed errors.">
       <change afterPath="$PROJECT_DIR$/run/logs/2020-07-08-7.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -58,14 +92,12 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.runClient" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

@@ -92,5 +92,5 @@
   "item.minerology.zinc_ingot": "Zinc Ingot",
   "item.minerology.zirconium_ingot": "Zirconium Ingot",
   "item.minerology.rutherfordium_ingot": "Rutherfordium Ingot",
-  "itemGroup.minerology_ores": "Ores"
+  "itemGroup.minerology_metal": "Metals"
 }
