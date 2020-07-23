@@ -1,7 +1,7 @@
 package com.theredinventor.minerology;
 
 import com.theredinventor.minerology.util.RegistryHandler;
-import com.theredinventor.minerology.world.OreGeneration;
+import com.theredinventor.minerology.world.*;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 
 @Mod("minerology")
 @Mod.EventBusSubscriber(modid = Minerology.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
