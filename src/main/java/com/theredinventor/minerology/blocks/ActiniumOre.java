@@ -8,7 +8,7 @@ import net.minecraftforge.common.ToolType;
 public class ActiniumOre extends Block {
 
     public ActiniumOre() {
-        super(Block.Properties.create(Material.IRON)
+        super(Block.Properties.create(Material.ROCK)
                 .hardnessAndResistance(3.0f, 7.5f)
                 .sound(SoundType.STONE)
                 .harvestLevel(2)
