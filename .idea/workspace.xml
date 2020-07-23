@@ -351,6 +351,10 @@
     <list default="true" id="8453a67e-94a1-4550-b2f6-ce25c3ec430b" name="Default Changelist" comment="Fixed errors.">
       <change afterPath="$PROJECT_DIR$/run/logs/2020-07-08-7.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      
+    <list default="true" id="8453a67e-94a1-4550-b2f6-ce25c3ec430b" name="Default Changelist" comment="Fixed errors.">
+      <change afterPath="$PROJECT_DIR$/run/logs/2020-07-08-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/RegistryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/RegistryHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/meithnerium_ingot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/meitnerium_ingot.json" afterDir="false" />
@@ -469,7 +473,6 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="452" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1594036465457" />
-<<<<<<< HEAD
     <state x="496" y="275" key="FileChooserDialogImpl" timestamp="1595346704057">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
