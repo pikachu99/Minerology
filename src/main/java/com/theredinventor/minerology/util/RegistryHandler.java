@@ -78,7 +78,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Palladium_Ingot = ITEMS.register("palladium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Platinum_Ingot = ITEMS.register("platinum_ingot", ItemBase::new);
     public static final RegistryObject<Item> Plutonium_Ingot = ITEMS.register("plutonium_ingot", ItemBase::new);
-    public static final RegistryObject<Item> Polonium_Ingot = ITEMS.register("potassium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> Polonium_Ingot = ITEMS.register("polonium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Potassium_Ingot = ITEMS.register("potassium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Praseodymium_Ingot = ITEMS.register("praseodymium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Promethium_Ingot = ITEMS.register("promethium_ingot", ItemBase::new);
@@ -177,7 +177,7 @@ public class RegistryHandler {
     public static final RegistryObject<Block> Tungsten_Ore = BLOCKS.register("tungsten_ore", TungstenOre:: new);
     public static final RegistryObject<Block> Uranium_Ore = BLOCKS.register("uranium_ore", UraniumOre:: new);
     public static final RegistryObject<Block> Vanadium_Ore = BLOCKS.register("vanadium_ore", VanadiumOre:: new);
-    public static final RegistryObject<Block> Ytterbium_Ore = BLOCKS.register("yttterbium_ore", YtterbiumOre:: new);
+    public static final RegistryObject<Block> Ytterbium_Ore = BLOCKS.register("ytterbium_ore", YtterbiumOre:: new);
     public static final RegistryObject<Block> Yttrium_Ore = BLOCKS.register("yttrium_ore", YttriumOre:: new);
     public static final RegistryObject<Block> Zinc_Ore = BLOCKS.register("zinc_ore", ZincOre:: new);
     public static final RegistryObject<Block> Zirconium_Ore = BLOCKS.register("zirconium_ore", ZirconiumOre:: new);
@@ -189,7 +189,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Berylium_Ore_Item = ITEMS.register("berylium_ore", () -> new BlockItemBase(Berylium_Ore.get()));
     public static final RegistryObject<Item> Bismuth_Ore_Item = ITEMS.register("bismuth_ore", () -> new BlockItemBase(Bismuth_Ore.get()));
     public static final RegistryObject<Item> Cadmium_Ore_Item = ITEMS.register("cadmium_ore", () -> new BlockItemBase(Cadmium_Ore.get()));
-    public static final RegistryObject<Item> Calcium_Ore_Item = ITEMS.register("calmium_ore", () -> new BlockItemBase(Calcium_Ore.get()));
+    public static final RegistryObject<Item> Calcium_Ore_Item = ITEMS.register("calcium_ore", () -> new BlockItemBase(Calcium_Ore.get()));
     public static final RegistryObject<Item> Cerium_Ore_Item = ITEMS.register("cerium_ore", () -> new BlockItemBase(Cerium_Ore.get()));
     public static final RegistryObject<Item> Caesium_Ore_Item = ITEMS.register("caesium_ore", () -> new BlockItemBase(Caesium_Ore.get()));
     public static final RegistryObject<Item> Chromium_Ore_Item = ITEMS.register("chromium_ore", () -> new BlockItemBase(Chromium_Ore.get()));
@@ -219,7 +219,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Niobium_Ore_Item = ITEMS.register("niobium_ore", () -> new BlockItemBase(Niobium_Ore.get()));
     public static final RegistryObject<Item> Osmium_Ore_Item = ITEMS.register("osmium_ore", () -> new BlockItemBase(Osmium_Ore.get()));
     public static final RegistryObject<Item> Palladium_Ore_Item = ITEMS.register("palladium_ore", () -> new BlockItemBase(Palladium_Ore.get()));
-    public static final RegistryObject<Item> Platinium_Ore_Item = ITEMS.register("platinium_ore", () -> new BlockItemBase(Platinum_Ore.get()));
+    public static final RegistryObject<Item> Platinium_Ore_Item = ITEMS.register("platinum_ore", () -> new BlockItemBase(Platinum_Ore.get()));
     public static final RegistryObject<Item> Polonium_Ore_Item = ITEMS.register("polonium_ore", () -> new BlockItemBase(Polonium_Ore.get()));
     public static final RegistryObject<Item> Potassium_Ore_Item = ITEMS.register("potassium_ore", () -> new BlockItemBase(Potassium_Ore.get()));
     public static final RegistryObject<Item> Praseodymium_Ore_Item = ITEMS.register("praseodymium_ore", () -> new BlockItemBase(Praseodymium_Ore.get()));
@@ -228,7 +228,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Rhenium_Ore_Item = ITEMS.register("rhenium_ore", () -> new BlockItemBase(Rhenium_Ore.get()));
     public static final RegistryObject<Item> Rhodium_Ore_Item = ITEMS.register("rhodium_ore", () -> new BlockItemBase(Rhodium_Ore.get()));
     public static final RegistryObject<Item> Rubidium_Ore_Item = ITEMS.register("rubidium_ore", () -> new BlockItemBase(Rubidium_Ore.get()));
-    public static final RegistryObject<Item> Ruthenium_Ore_Item = ITEMS.register("ruthemium_ore", () -> new BlockItemBase(Ruthenium_Ore.get()));
+    public static final RegistryObject<Item> Ruthenium_Ore_Item = ITEMS.register("ruthenium_ore", () -> new BlockItemBase(Ruthenium_Ore.get()));
     public static final RegistryObject<Item> Samarium_Ore_Item = ITEMS.register("samarium_ore", () -> new BlockItemBase(Samarium_Ore.get()));
     public static final RegistryObject<Item> Scandium_Ore_Item = ITEMS.register("scandium_ore", () -> new BlockItemBase(Scandium_Ore.get()));
     public static final RegistryObject<Item> Silicon_Ore_Item = ITEMS.register("silicon_ore", () -> new BlockItemBase(Silicon_Ore.get()));
@@ -251,7 +251,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> ZirconiumOre_Item = ITEMS.register("zirconium_ore", () -> new BlockItemBase(Zirconium_Ore.get()));
 
     // Blocks
-    public static final RegistryObject<Block>  Actinium_Block = BLOCKS.register("actinium_block", ActiniumBlock:: new);
+    public static final RegistryObject<Block> Actinium_Block = BLOCKS.register("actinium_block", ActiniumBlock:: new);
 
     // Blocks Items
     public static final RegistryObject<Item> Actinium_Block_Item = ITEMS.register("actinium_block", () -> new BlockItemBase(Actinium_Block.get()));
