@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:scandium_ore"
+  },
+  "result": "minerology:scandium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

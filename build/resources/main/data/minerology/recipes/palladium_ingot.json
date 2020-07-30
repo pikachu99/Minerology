@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:palladium_ore"
+  },
+  "result": "minerology:palladium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

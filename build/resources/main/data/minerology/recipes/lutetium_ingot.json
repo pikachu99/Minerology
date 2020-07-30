@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:lutetium_ore"
+  },
+  "result": "minerology:lutetium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

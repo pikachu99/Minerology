@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:samarium_ore"
+  },
+  "result": "minerology:samarium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

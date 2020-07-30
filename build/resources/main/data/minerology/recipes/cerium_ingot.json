@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:cerium_ore"
+  },
+  "result": "minerology:cerium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

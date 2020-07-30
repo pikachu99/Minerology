@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:ytterbium_ore"
+  },
+  "result": "minerology:ytterbium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

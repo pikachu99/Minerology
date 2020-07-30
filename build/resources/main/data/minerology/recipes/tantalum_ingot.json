@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:tantalum_ore"
+  },
+  "result": "minerology:tantalum_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}
