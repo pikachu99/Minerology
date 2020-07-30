@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:ruthenium_ore"
+  },
+  "result": "minerology:ruthenium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

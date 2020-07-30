@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:terbium_ore"
+  },
+  "result": "minerology:terbium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

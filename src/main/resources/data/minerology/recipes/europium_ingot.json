@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:europium_ore"
+  },
+  "result": "minerology:europium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

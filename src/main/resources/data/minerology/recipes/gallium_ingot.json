@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:gallium_ore"
+  },
+  "result": "minerology:gallium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

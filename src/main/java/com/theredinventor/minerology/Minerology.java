@@ -1,6 +1,7 @@
 package com.theredinventor.minerology;
 
-import com.theredinventor.minerology.util.RegistryHandler;
+import com.theredinventor.minerology.init.MinerologyBlocks;
+import com.theredinventor.minerology.init.MinerologyItems;
 import com.theredinventor.minerology.world.*;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -26,7 +27,8 @@ public class Minerology
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        RegistryHandler.init();
+        MinerologyBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        MinerologyItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -37,13 +39,13 @@ public class Minerology
 
     @SubscribeEvent
     public static void loadCompleteEvent(FMLLoadCompleteEvent event){
-        OreGeneration.generationOre();
+        MinerologyOreGen.generationOre();
     }
 
     public static final ItemGroup TAB = new ItemGroup("minerology_metal"){
         @Override
         public ItemStack createIcon(){
-            return new ItemStack(RegistryHandler.Actinium_Ingot.get());
+            return new ItemStack(MinerologyItems.Actinium_Ingot.get());
         }
     };
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:bismuth_ore"
+  },
+  "result": "minerology:bismuth_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

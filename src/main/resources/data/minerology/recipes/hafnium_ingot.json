@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:hafnium_ore"
+  },
+  "result": "minerology:hafnium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}
