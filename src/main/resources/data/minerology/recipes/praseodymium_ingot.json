@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:praseodymium_ore"
+  },
+  "result": "minerology:praseodymium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

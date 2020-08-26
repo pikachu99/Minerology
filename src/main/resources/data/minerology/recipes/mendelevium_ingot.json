@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:mendelevium_ore"
+  },
+  "result": "minerology:mendelevium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

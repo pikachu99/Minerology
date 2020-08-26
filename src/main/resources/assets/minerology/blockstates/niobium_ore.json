@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "minerology:block/niobium_block" }
+    "": { "model": "minerology:block/niobium_ore" }
   }
 }

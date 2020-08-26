@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:francium_ore"
+  },
+  "result": "minerology:francium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

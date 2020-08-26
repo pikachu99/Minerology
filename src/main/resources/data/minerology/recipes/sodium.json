@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:sodium_ore"
+  },
+  "result": "minerology:sodium",
+  "experience": 1.0,
+  "cookingtime": 200
+}

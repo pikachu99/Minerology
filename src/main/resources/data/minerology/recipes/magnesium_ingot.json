@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:magnesium_ore"
+  },
+  "result": "minerology:magnesium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

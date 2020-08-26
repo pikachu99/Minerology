@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:barium_ore"
+  },
+  "result": "minerology:barium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

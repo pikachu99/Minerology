@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:niobium_ore"
+  },
+  "result": "minerology:niobium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:gadolinium_ore"
+  },
+  "result": "minerology:gadolinium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

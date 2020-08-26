@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:molybdenum_ore"
+  },
+  "result": "minerology:molybdenum_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

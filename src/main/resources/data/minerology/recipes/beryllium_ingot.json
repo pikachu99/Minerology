@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:beryllium_ore"
+  },
+  "result": "minerology:beryllium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

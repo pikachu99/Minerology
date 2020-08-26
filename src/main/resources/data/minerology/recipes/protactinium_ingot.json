@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:protactinium_ore"
+  },
+  "result": "minerology:protactinium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}
