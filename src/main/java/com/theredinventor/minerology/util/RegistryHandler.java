@@ -3,8 +3,10 @@ package com.theredinventor.minerology.util;
 import com.theredinventor.minerology.Minerology;
 import com.theredinventor.minerology.blocks.*;
 import com.theredinventor.minerology.items.ItemBase;
+import com.theredinventor.minerology.util.enums.MinerologyItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -255,5 +257,9 @@ public class RegistryHandler {
 
     // Blocks Items
     public static final RegistryObject<Item> Actinium_Block_Item = ITEMS.register("actinium_block", () -> new BlockItemBase(Actinium_Block.get()));
+
+    // Tools
+    public static final RegistryObject<SwordItem> Aluminum_Sword = ITEMS.register("aluminum_sword", () ->
+            new SwordItem(MinerologyItemTier.ALUMINUM, 2,));
 
 }
