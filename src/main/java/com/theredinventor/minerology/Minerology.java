@@ -2,15 +2,12 @@ package com.theredinventor.minerology;
 
 import com.theredinventor.minerology.init.MinerologyBlocks;
 import com.theredinventor.minerology.init.MinerologyItems;
-import com.theredinventor.minerology.world.*;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -37,10 +34,10 @@ public class Minerology
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
 
-    @SubscribeEvent
-    public static void loadCompleteEvent(FMLLoadCompleteEvent event){
-        MinerologyOreGen.generationOre();
-    }
+    //@SubscribeEvent
+    //public static void loadCompleteEvent(FMLLoadCompleteEvent event){
+        //MinerologyOreGen.generationOre();
+    //}
 
     public static final ItemGroup TAB = new ItemGroup("minerology_metal"){
         @Override

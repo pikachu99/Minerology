@@ -1,7 +1,6 @@
 package com.theredinventor.minerology.world;
 
 import com.theredinventor.minerology.init.MinerologyBlocks;
-import com.theredinventor.minerology.init.MinerologyItems;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.feature.Feature;

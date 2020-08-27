@@ -1,12 +1,8 @@
 package com.theredinventor.minerology.util.enums;
-
 import com.theredinventor.minerology.init.MinerologyItems;
-import net.minecraft.client.Minecraft;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Items;
-import net.minecraft.item.MinecartItem;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraftforge.common.extensions.IForgeItem;
 
 import java.util.function.Supplier;
 
