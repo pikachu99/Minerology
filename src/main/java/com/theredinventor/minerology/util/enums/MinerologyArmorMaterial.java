@@ -2,7 +2,6 @@ package com.theredinventor.minerology.util.enums;
 
 import com.theredinventor.minerology.Minerology;
 import com.theredinventor.minerology.init.MinerologyItems;
-import net.minecraft.client.Minecraft;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.Items;
