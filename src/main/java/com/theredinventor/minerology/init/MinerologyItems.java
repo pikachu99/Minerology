@@ -175,6 +175,37 @@ public class MinerologyItems {
 
     // Block Items
     public static final RegistryObject<Item> Actinium_Block_Item = ITEMS.register("actinium_block", () -> new BlockItemBase(MinerologyBlocks.Actinium_Block.get()));
+    public static final RegistryObject<Item> Aluminum_Block_Item = ITEMS.register("aluminum_block", () -> new BlockItemBase(MinerologyBlocks.Aluminum_Block.get()));
+    public static final RegistryObject<Item> Americium_Block_Item = ITEMS.register("americium_block", () -> new BlockItemBase(MinerologyBlocks.Americium_Block.get()));
+    public static final RegistryObject<Item> Barium_Block_Item = ITEMS.register("barium_block", () -> new BlockItemBase(MinerologyBlocks.Barium_Block.get()));
+    public static final RegistryObject<Item> Berkelium_Block_Item = ITEMS.register("berkelium_block", () -> new BlockItemBase(MinerologyBlocks.Berkelium_Block.get()));
+    public static final RegistryObject<Item> Beryllium_Block_Item = ITEMS.register("beryllium_block", () -> new BlockItemBase(MinerologyBlocks.Beryllium_Block.get()));
+    public static final RegistryObject<Item> Bismuth_Block_Item = ITEMS.register("bismuth_block", () -> new BlockItemBase(MinerologyBlocks.Bismuth_Block.get()));
+    public static final RegistryObject<Item> Bohrium_Block_Item = ITEMS.register("bohrium_block", () -> new BlockItemBase(MinerologyBlocks.Bohrium_Block.get()));
+    public static final RegistryObject<Item> Cadmium_Block_Item = ITEMS.register("cadmium_block", () -> new BlockItemBase(MinerologyBlocks.Cadmium_Block.get()));
+    public static final RegistryObject<Item> Caesium_Block_Item = ITEMS.register("caesium_block", () -> new BlockItemBase(MinerologyBlocks.Caesium_Block.get()));
+    public static final RegistryObject<Item> Calcium_Block_Item = ITEMS.register("calcium_block", () -> new BlockItemBase(MinerologyBlocks.Calcium_Block.get()));
+    public static final RegistryObject<Item> Californium_Block_Item = ITEMS.register("californium_block", () -> new BlockItemBase(MinerologyBlocks.Californium_Block.get()));
+    public static final RegistryObject<Item> Cerium_Block_Item = ITEMS.register("cerium_block", () -> new BlockItemBase(MinerologyBlocks.Cerium_Block.get()));
+    public static final RegistryObject<Item> Chromium_Block_Item = ITEMS.register("chromium_block", () -> new BlockItemBase(MinerologyBlocks.Chromium_Block.get()));
+    public static final RegistryObject<Item> Cobalt_Block_Item = ITEMS.register("cobalt_block", () -> new BlockItemBase(MinerologyBlocks.Cobalt_Block.get()));
+    public static final RegistryObject<Item> Copernicium_Block_Item = ITEMS.register("copernicium_block", () -> new BlockItemBase(MinerologyBlocks.Copernicium_Block.get()));
+    public static final RegistryObject<Item> Copper_Block_Item = ITEMS.register("copper_block", () -> new BlockItemBase(MinerologyBlocks.Copper_Block.get()));
+    public static final RegistryObject<Item> Curium_Block_Item = ITEMS.register("curium_block", () -> new BlockItemBase(MinerologyBlocks.Curium_Block.get()));
+    public static final RegistryObject<Item> Darmstadtium_Block_Item = ITEMS.register("darmstadtium_block", () -> new BlockItemBase(MinerologyBlocks.Darmstadtium_Block.get()));
+    public static final RegistryObject<Item> Dubnium_Block_Item = ITEMS.register("dubnium_block", () -> new BlockItemBase(MinerologyBlocks.Dubnium_Block.get()));
+    public static final RegistryObject<Item> Dysprosium_Block_Item = ITEMS.register("dysprosium_block", () -> new BlockItemBase(MinerologyBlocks.Dysprosium_Block.get()));
+    public static final RegistryObject<Item> Einsteinium_Block_Item = ITEMS.register("einsteinium_block", () -> new BlockItemBase(MinerologyBlocks.Einsteinium_Block.get()));
+    public static final RegistryObject<Item> Erbium_Block_Item = ITEMS.register("erbium_block", () -> new BlockItemBase(MinerologyBlocks.Erbium_Block.get()));
+    public static final RegistryObject<Item> Europium_Block_Item = ITEMS.register("europium_block", () -> new BlockItemBase(MinerologyBlocks.Europium_Block.get()));
+    public static final RegistryObject<Item> Fermium_Block_Item = ITEMS.register("fermium_block", () -> new BlockItemBase(MinerologyBlocks.Fermium_Block.get()));
+    public static final RegistryObject<Item> Flerovium_Block_Item = ITEMS.register("flerovium_block", () -> new BlockItemBase(MinerologyBlocks.Flerovium_Block.get()));
+    public static final RegistryObject<Item> Francium_Block_Item = ITEMS.register("francium_block", () -> new BlockItemBase(MinerologyBlocks.Francium_Block.get()));
+    public static final RegistryObject<Item> Gadolinium_Block_Item = ITEMS.register("gadolinium_block", () -> new BlockItemBase(MinerologyBlocks.Gadolinium_Block.get()));
+    public static final RegistryObject<Item> Gallium_Block_Item = ITEMS.register("gallium_block", () -> new BlockItemBase(MinerologyBlocks.Gallium_Block.get()));
+    public static final RegistryObject<Item> Hafnium_Block_Item = ITEMS.register("hafnium_block", () -> new BlockItemBase(MinerologyBlocks.Hafnium_Block.get()));
+    public static final RegistryObject<Item> Hassium_Block_Item = ITEMS.register("hassium_block", () -> new BlockItemBase(MinerologyBlocks.Hassium_Block.get()));
+    public static final RegistryObject<Item> Holmium_Block_Item = ITEMS.register("holmium_block", () -> new BlockItemBase(MinerologyBlocks.Holmium_Block.get()));
 
     // Tools
     public  static final RegistryObject<SwordItem> Aluminum_Sword = ITEMS.register("aluminum_sword", () ->

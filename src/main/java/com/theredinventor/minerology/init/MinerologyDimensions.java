@@ -10,5 +10,5 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class MinerologyDimensions {
 
     public static final DeferredRegister<ModDimension> MOD_DIMENSIONS = new DeferredRegister<>(ForgeRegistries.MOD_DIMENSIONS, Minerology.MOD_ID);
-    public static final RegistryObject<ModDimension> UNDERGROUND = MOD_DIMENSIONS.register("underground", UndergroundModDimension::new);
+    public static final RegistryObject<ModDimension> UNDERGROUND = MOD_DIMENSIONS.register("underground", () -> new UndergroundModDimension());
 }

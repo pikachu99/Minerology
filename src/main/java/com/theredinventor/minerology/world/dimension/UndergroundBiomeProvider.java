@@ -2,7 +2,6 @@ package com.theredinventor.minerology.world.dimension;
 
 import com.google.common.collect.ImmutableSet;
 import com.theredinventor.minerology.init.MinerologyBiomes;
-import jdk.nashorn.internal.ir.annotations.Immutable;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.provider.BiomeProvider;
 

@@ -1,6 +1,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-      "all": "minerology:blocks/actinium_block"
+      "all": "minerology:blocks/aluminum_block"
    }
 }

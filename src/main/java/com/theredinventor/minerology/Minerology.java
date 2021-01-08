@@ -1,6 +1,7 @@
 package com.theredinventor.minerology;
 
 import com.theredinventor.minerology.init.MinerologyBlocks;
+import com.theredinventor.minerology.init.MinerologyDimensions;
 import com.theredinventor.minerology.init.MinerologyItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -11,6 +12,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 
 
 @Mod("minerology")
@@ -26,11 +28,14 @@ public class Minerology
 
         MinerologyBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         MinerologyItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        MinerologyDimensions.MOD_DIMENSIONS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        //MinerologyEntity.ENTITY_TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event) { }
+    private void setup(final FMLCommonSetupEvent event) {
+    }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
 

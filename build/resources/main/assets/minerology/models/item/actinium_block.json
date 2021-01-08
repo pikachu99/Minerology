@@ -1,3 +1,4 @@
 {
-  "parent": "minerology:block/actinium_block"
+   "parent": "minerology:blocks/actinium_block"
+   
 }

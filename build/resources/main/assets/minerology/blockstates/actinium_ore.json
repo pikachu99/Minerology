@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "minerology:block/actinium_ore" }
+     "": { "model":"minerology:block/actinium_ore" }
   }
 }
