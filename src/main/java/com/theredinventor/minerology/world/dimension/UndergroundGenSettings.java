@@ -13,7 +13,8 @@ public class UndergroundGenSettings extends GenerationSettings {
         return -1;
     }
     @Override
-    public int getBedrockFloorHeight(){
+    public int getBedrockFloorHeight(){ return 0; }
+    public int getBedrockRoofHeight() {
         return 255;
     }
 }

@@ -19,227 +19,37 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66906fac-d306-4f1c-ace5-afc818b929e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AluminumBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/block/aluminum_block.json" afterDir="false" />
+    <list default="true" id="66906fac-d306-4f1c-ace5-afc818b929e1" name="Default Changelist" comment="Added Metal Blocks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AegirineOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AmberOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AmethystOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AntimonyOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ApatiteOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AquaumOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ArctiteOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ArsenicOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AvotumOre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/Minerology$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/Minerology$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/Minerology.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/Minerology.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/blockstates/actinium_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/minerology/blockstates/actinium_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/minerology/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/models/block/actinium_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/minerology/models/block/actinium_block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/models/item/actinium_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/minerology/models/item/actinium_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/aluminum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/americium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/barium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/berkelium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/bismuth_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/bohrium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/cadmium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/caesium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/calcium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/californium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/cerium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/chromium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/cobalt_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/copernicium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/copper_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/curium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/darmstadtium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/dubnium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/dysprosium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/einsteinium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/erbium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/europium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/fermium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/flerovium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/francium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/gadolinium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/gallium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/hafnium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/hassium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/holmium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/indium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/iridium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/lanthanum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/lawrencium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/lead_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/lithium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/livermorium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/lutetium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/magnesium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/manganese_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/meitnerium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/mendelevium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/mercury_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/molybdenum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/moscovium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/neodymium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/neptunium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/nickel_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/nihonium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/niobium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/nobelium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/oganesson_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/osmium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/palladium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/platinum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/plutonium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/polonium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/potassium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/praseodymium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/promethium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/protactinium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/radium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/rhenium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/rhodium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/roentgenium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/rubidium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/ruthenium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/rutherfordium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/samarium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/scandium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/seaborgium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/silicon_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/silver_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/sodium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/strontium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/tantalum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/technetium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/tennessine_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/terbium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/thallium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/thorium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/thulium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/tin_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/titanium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/tungsten_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/uranium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/vanadium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/ytterbium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/yttrium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/zinc_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/blocks/zirconium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/items/ruby.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/minerology/textures/items/ruby.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/Minerology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/Minerology.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyDimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyDimensions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/ForgeEventBusSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/ForgeEventBusSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/enums/MinerologyItemTier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/util/enums/MinerologyItemTier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/MinerologyOreGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/MinerologyOreGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundBiomeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundBiomeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/WarpDimension.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/blockstates/actinium_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/blockstates/actinium_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/blockstates/actinium_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/blockstates/actinium_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundDimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundGenSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundGenSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/block/actinium_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/block/actinium_block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/actinium_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/actinium_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/aluminum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/americium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/barium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/berkelium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/beryllium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/bismuth_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/bohrium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/cadmium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/caesium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/calcium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/californium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/cerium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/chromium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/cobalt_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/copernicium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/copper_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/curium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/darmstadtium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/dubnium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/dysprosium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/einsteinium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/erbium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/europium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/fermium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/flerovium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/francium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/gadolinium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/gallium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/hafnium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/hassium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/holmium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/indium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/iridium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/lanthanum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/lawrencium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/lead_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/lithium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/livermorium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/lutetium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/magnesium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/manganese_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/meitnerium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/mendelevium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/mercury_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/molybdenum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/moscovium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/neodymium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/neptunium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/nickel_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/nihonium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/niobium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/nobelium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/oganesson_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/osmium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/palladium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/platinum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/plutonium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/polonium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/potassium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/praseodymium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/promethium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/protactinium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/radium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/rhenium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/rhodium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/roentgenium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/rubidium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/ruthenium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/rutherfordium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/samarium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/scandium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/seaborgium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/silicon_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/silver_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/sodium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/strontium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/tantalum_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/technetium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/tennessine_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/terbium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/thallium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/thorium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/thulium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/tin_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/titanium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/tungsten_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/uranium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/vanadium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/ytterbium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/yttrium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/zinc_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/blocks/zirconium_ore_block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/items/holomium_ingot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/items/ruby.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/textures/items/ruby.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,6 +93,14 @@
       <option name="presentableId" value="Default" />
       <updated>1598509183602</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Metal Blocks">
+      <created>1610093044125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610093044125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +115,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Metal Blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Metal Blocks" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="372" y="198" key="#Inspections" timestamp="1609443813441">
       <screen x="0" y="0" width="2560" height="1040" />
@@ -306,69 +128,85 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="158" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609293268178" />
-    <state x="590" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1610091995386">
+    <state x="590" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1613556580518">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="590" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610091995386" />
-    <state x="434" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609402295982">
+    <state x="590" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1613556580518" />
+    <state x="434" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1610530982494">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="434" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609402295982" />
-    <state x="565" y="261" key="FileChooserDialogImpl" timestamp="1609377728361">
+    <state x="434" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610530982494" />
+    <state x="565" y="261" key="FileChooserDialogImpl" timestamp="1616624369821">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="565" y="261" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609377728361" />
-    <state width="2517" height="269" key="GridCell.Tab.0.bottom" timestamp="1610091264076">
+    <state x="565" y="261" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1616624369821" />
+    <state width="1373" height="258" key="GridCell.Tab.0.bottom" timestamp="1612936687314">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="269" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610091264076" />
-    <state width="2517" height="269" key="GridCell.Tab.0.center" timestamp="1610091264076">
+    <state width="1373" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1612936687314" />
+    <state width="1373" height="258" key="GridCell.Tab.0.center" timestamp="1612936687314">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="269" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610091264076" />
-    <state width="2517" height="269" key="GridCell.Tab.0.left" timestamp="1610091264076">
+    <state width="1373" height="258" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1612936687314" />
+    <state width="1373" height="258" key="GridCell.Tab.0.left" timestamp="1612936687314">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="269" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610091264076" />
-    <state width="2517" height="269" key="GridCell.Tab.0.right" timestamp="1610091264076">
+    <state width="1373" height="258" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1612936687314" />
+    <state width="1373" height="258" key="GridCell.Tab.0.right" timestamp="1612936687314">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="269" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610091264076" />
-    <state width="2517" height="344" key="GridCell.Tab.1.bottom" timestamp="1609402492449">
+    <state width="1373" height="258" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1612936687314" />
+    <state width="2517" height="344" key="GridCell.Tab.1.bottom" timestamp="1610414163290">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="344" key="GridCell.Tab.1.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609402492449" />
-    <state width="2517" height="344" key="GridCell.Tab.1.center" timestamp="1609402492449">
+    <state width="2517" height="344" key="GridCell.Tab.1.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610414163290" />
+    <state width="2517" height="344" key="GridCell.Tab.1.center" timestamp="1610414163290">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="344" key="GridCell.Tab.1.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609402492449" />
-    <state width="2517" height="344" key="GridCell.Tab.1.left" timestamp="1609402492449">
+    <state width="2517" height="344" key="GridCell.Tab.1.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610414163290" />
+    <state width="2517" height="344" key="GridCell.Tab.1.left" timestamp="1610414163290">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="344" key="GridCell.Tab.1.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609402492449" />
-    <state width="2517" height="344" key="GridCell.Tab.1.right" timestamp="1609402492449">
+    <state width="2517" height="344" key="GridCell.Tab.1.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610414163290" />
+    <state width="2517" height="344" key="GridCell.Tab.1.right" timestamp="1610414163290">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="344" key="GridCell.Tab.1.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609402492449" />
+    <state width="2517" height="344" key="GridCell.Tab.1.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610414163290" />
     <state x="365" y="255" key="IDE.errors.dialog" timestamp="1609399442350">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="365" y="255" key="IDE.errors.dialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609399442350" />
-    <state x="976" y="222" key="RollbackChangesDialog" timestamp="1610001493707">
+    <state x="976" y="222" key="RollbackChangesDialog" timestamp="1610413337412">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="976" y="222" key="RollbackChangesDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610001493707" />
+    <state x="976" y="222" key="RollbackChangesDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610413337412" />
     <state x="286" y="165" key="SettingsEditor" timestamp="1609402238790">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="286" y="165" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609402238790" />
+    <state x="-1920" y="0" width="1936" height="1027" key="dock-window-1" timestamp="1610531200857">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1920" y="0" width="1936" height="1027" key="dock-window-1/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610531200857" />
+    <state x="-1489" y="0" width="925" height="733" key="dock-window-2" timestamp="1610532787647">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1489" y="0" width="925" height="733" key="dock-window-2/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610532787647" />
+    <state x="-976" y="93" width="925" height="712" key="dock-window-3" timestamp="1610533894944">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-976" y="93" width="925" height="712" key="dock-window-3/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610533894944" />
+    <state x="403" y="253" width="585" height="534" key="find.popup" timestamp="1610529744547">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="403" y="253" width="585" height="534" key="find.popup/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610529744547" />
     <state x="1106" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1610091924302">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1106" y="277" key="refactoring.ChangeSignatureDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610091924302" />
-    <state x="448" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1609444417552">
+    <state x="448" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1610533645814">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="448" y="229" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609444417552" />
+    <state x="448" y="229" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610533645814" />
   </component>
 </project>

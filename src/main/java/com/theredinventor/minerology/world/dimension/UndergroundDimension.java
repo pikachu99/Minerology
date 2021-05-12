@@ -44,6 +44,7 @@ public class UndergroundDimension extends Dimension {
 
     @Override
     public Vec3d getFogColor(float celestialAngle, float partialTicks) {
+        //return new Vec3d(0.6, 0.6, 0.6);
         return Vec3d.ZERO;
     }
 
