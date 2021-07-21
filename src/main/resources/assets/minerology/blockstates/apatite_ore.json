@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:apatite_ore"}
+      "": {"model":"minerology:block/apatite_ore"}
    }
 }

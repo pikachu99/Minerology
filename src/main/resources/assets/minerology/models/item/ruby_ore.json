@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/ruby_ore",
-
+   "parent": "minerology:block/ruby_ore"
 }

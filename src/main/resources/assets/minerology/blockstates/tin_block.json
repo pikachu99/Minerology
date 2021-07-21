@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:tin_block"}
+      "": {"model":"minerology:block/tin_block"}
    }
 }

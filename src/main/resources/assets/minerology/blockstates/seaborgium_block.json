@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:seaborgium_block"}
+      "": {"model":"minerology:block/seaborgium_block"}
    }
 }

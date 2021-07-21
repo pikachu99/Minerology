@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:scandium_block"}
+      "": {"model":"minerology:block/scandium_block"}
    }
 }

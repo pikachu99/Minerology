@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:nihonium_block"}
+      "": {"model":"minerology:block/nihonium_block"}
    }
 }

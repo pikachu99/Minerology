@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/ruby_block",
-
+   "parent": "minerology:block/ruby_block"
 }

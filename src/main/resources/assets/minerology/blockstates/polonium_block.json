@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:polonium_block"}
+      "": {"model":"minerology:block/polonium_block"}
    }
 }

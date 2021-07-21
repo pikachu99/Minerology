@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:zirconium_block"}
+      "": {"model":"minerology:block/zirconium_block"}
    }
 }

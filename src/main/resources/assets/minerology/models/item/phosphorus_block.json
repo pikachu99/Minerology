@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/phosphorus_block",
-
+   "parent": "minerology:block/phosphorus_block"
 }

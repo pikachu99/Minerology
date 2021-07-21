@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:holmium_block"}
+      "": {"model":"minerology:block/holmium_block"}
    }
 }

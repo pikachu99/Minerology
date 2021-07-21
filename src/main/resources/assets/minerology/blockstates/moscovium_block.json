@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:moscovium_block"}
+      "": {"model":"minerology:block/moscovium_block"}
    }
 }

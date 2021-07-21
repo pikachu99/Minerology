@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:ruby_ore"}
+      "": {"model":"minerology:block/ruby_ore"}
    }
 }

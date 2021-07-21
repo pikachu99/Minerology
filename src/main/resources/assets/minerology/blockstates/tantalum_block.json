@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:tantalum_block"}
+      "": {"model":"minerology:block/tantalum_block"}
    }
 }

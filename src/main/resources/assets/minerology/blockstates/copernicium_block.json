@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:copernicium_block"}
+      "": {"model":"minerology:block/copernicium_block"}
    }
 }

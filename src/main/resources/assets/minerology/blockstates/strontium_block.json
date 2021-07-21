@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:strontium_block"}
+      "": {"model":"minerology:block/strontium_block"}
    }
 }

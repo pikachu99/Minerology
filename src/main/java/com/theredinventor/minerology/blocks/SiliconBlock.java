@@ -7,9 +7,9 @@ import net.minecraftforge.common.ToolType;
 
 public class SiliconBlock extends Block {
     public SiliconBlock() {
-        super(Block.Properties.create(Material.IRON)
-                .hardnessAndResistance(3.0f, 0f)
-                .sound(SoundType.STONE)
+        super(Block.Properties.create(Material.ROCK)
+                .hardnessAndResistance(6.5f, 5f)
+                .sound(SoundType.METAL)
                 .harvestLevel(1)
                 .harvestTool(ToolType.PICKAXE)
         );

@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:iridium_block"}
+      "": {"model":"minerology:block/iridium_block"}
    }
 }

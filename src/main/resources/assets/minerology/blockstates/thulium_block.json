@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:thulium_block"}
+      "": {"model":"minerology:block/thulium_block"}
    }
 }

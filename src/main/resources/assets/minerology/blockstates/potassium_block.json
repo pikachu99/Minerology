@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:potassium_block"}
+      "": {"model":"minerology:block/potassium_block"}
    }
 }

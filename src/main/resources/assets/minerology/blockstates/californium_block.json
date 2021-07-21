@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:californium_block"}
+      "": {"model":"minerology:block/californium_block"}
    }
 }

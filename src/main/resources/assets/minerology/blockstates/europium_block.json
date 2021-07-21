@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:europium_block"}
+      "": {"model":"minerology:block/europium_block"}
    }
 }

@@ -8,9 +8,9 @@ import net.minecraftforge.common.ToolType;
 public class ApatiteOre extends Block{
     public ApatiteOre() {
         super(Block.Properties.create(Material.ROCK)
-                .hardnessAndResistance(2.5f, 15f)
+                .hardnessAndResistance(2.5f, 10f)
                 .sound(SoundType.STONE)
-                .harvestLevel(3)
+                .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE)
         );
     }

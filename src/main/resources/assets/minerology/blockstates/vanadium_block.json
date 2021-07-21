@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:vanadium_block"}
+      "": {"model":"minerology:block/vanadium_block"}
    }
 }

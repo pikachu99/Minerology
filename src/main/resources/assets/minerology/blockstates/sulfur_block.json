@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:sulfur_block"}
+      "": {"model":"minerology:block/sulfur_block"}
    }
 }

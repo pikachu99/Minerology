@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/sulfur_block",
-
+   "parent": "minerology:block/sulfur_block"
 }

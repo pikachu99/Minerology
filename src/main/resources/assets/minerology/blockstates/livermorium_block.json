@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:livermorium_block"}
+      "": {"model":"minerology:block/livermorium_block"}
    }
 }

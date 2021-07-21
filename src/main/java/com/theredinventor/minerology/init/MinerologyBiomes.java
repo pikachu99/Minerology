@@ -1,7 +1,7 @@
 package com.theredinventor.minerology.init;
 
 import com.theredinventor.minerology.Minerology;
-import com.theredinventor.minerology.world.biomes.CaveBiome;
+//import com.theredinventor.minerology.world.biomes.CaveBiome;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -13,7 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class MinerologyBiomes {
-    public static final DeferredRegister<Biome> BIOMES = new DeferredRegister<>(ForgeRegistries.BIOMES, Minerology.MOD_ID);
+    /*public static final DeferredRegister<Biome> BIOMES = DeferredRegister.create(ForgeRegistries.BIOMES, Minerology.MOD_ID);
 
     public static final RegistryObject<Biome> CAVE = BIOMES.register("cave", () -> new CaveBiome(new Biome.Builder().precipitation(Biome.RainType.NONE).scale(0f).temperature(1.0f).waterColor(0x68a0b0).waterFogColor(0x68a0b0)
             .surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState()))
@@ -23,6 +23,6 @@ public class MinerologyBiomes {
     }
     private static void registerBiome(Biome biome, BiomeDictionary.Type... types){
         BiomeDictionary.addTypes(biome, types);
-        BiomeManager.addSpawnBiome(biome);
-    }
+        BiomeManager.addBiome(biome);
+    }*/
 }

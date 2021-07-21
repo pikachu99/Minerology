@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:dysprosium_block"}
+      "": {"model":"minerology:block/dysprosium_block"}
    }
 }

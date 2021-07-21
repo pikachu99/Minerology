@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:sodium_block"}
+      "": {"model":"minerology:block/sodium_block"}
    }
 }

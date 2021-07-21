@@ -10,7 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class MinerologyItems {
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Minerology.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Minerology.MOD_ID);
     // Ingots
     public static final RegistryObject<Item> Actinium_Ingot = ITEMS.register( "actinium_ingot", ItemBase::new);
     public static final RegistryObject<Item> Aluminum_Ingot = ITEMS.register( "aluminum_ingot", ItemBase::new);
@@ -177,56 +177,27 @@ public class MinerologyItems {
     public static final RegistryObject<Item> Amethyst_Ore_Item = ITEMS.register("amethyst_ore", () -> new BlockItemBase(MinerologyBlocks.Amethyst_Ore.get()));
     public static final RegistryObject<Item> Antimony_Ore_Item = ITEMS.register("antimony_ore", () -> new BlockItemBase(MinerologyBlocks.Antimony_Ore.get()));
     public static final RegistryObject<Item> Apatite_Ore_Item = ITEMS.register("apatite_ore", () -> new BlockItemBase(MinerologyBlocks.Apatite_Ore.get()));
-    public static final RegistryObject<Item> Aquaum_Ore_Item = ITEMS.register("aquaum_ore", () -> new BlockItemBase(MinerologyBlocks.Aquaum_Ore.get()));
     public static final RegistryObject<Item> Arctite_Ore_Item = ITEMS.register("arctite_ore", () -> new BlockItemBase(MinerologyBlocks.Arctite_Ore.get()));
     public static final RegistryObject<Item> Arsenic_Ore_Item = ITEMS.register("arsenic_ore", () -> new BlockItemBase(MinerologyBlocks.Arsenic_Ore.get()));
-    public static final RegistryObject<Item> Avotum_Ore_Item = ITEMS.register("avotum_ore", () -> new BlockItemBase(MinerologyBlocks.Avotum_Ore.get()));
     public static final RegistryObject<Item> Azurite_Ore_Item = ITEMS.register("azurite_ore", () -> new BlockItemBase(MinerologyBlocks.Azurite_Ore.get()));
-    public static final RegistryObject<Item> Balonium_Ore_Item = ITEMS.register("balonium_ore", () -> new BlockItemBase(MinerologyBlocks.Balonium_Ore.get()));
-    public static final RegistryObject<Item> Barite_Ore_Item = ITEMS.register("barite_ore", () -> new BlockItemBase(MinerologyBlocks.Barite_Ore.get()));
-    public static final RegistryObject<Item> Bornite_Ore_Item = ITEMS.register("bornite_ore", () -> new BlockItemBase(MinerologyBlocks.Bornite_Ore.get()));
+    public static final RegistryObject<Item> Bornite_Ore_Item = ITEMS.register("barite_ore", () -> new BlockItemBase(MinerologyBlocks.Barite_Ore.get()));
     public static final RegistryObject<Item> Beryl_Ore_Item = ITEMS.register("beryl_ore", () -> new BlockItemBase(MinerologyBlocks.Beryl_Ore.get()));
     public static final RegistryObject<Item> Boron_Ore_Item = ITEMS.register("boron_ore", () -> new BlockItemBase(MinerologyBlocks.Boron_Ore.get()));
-    public static final RegistryObject<Item> Burptonium_Ore_Item = ITEMS.register("burptonium_ore", () -> new BlockItemBase(MinerologyBlocks.Burptonium_Ore.get()));
     public static final RegistryObject<Item> Calcite_Ore_Item = ITEMS.register("calcite_ore", () -> new BlockItemBase(MinerologyBlocks.Calcite_Ore.get()));
     public static final RegistryObject<Item> Cinnabar_Ore_Item = ITEMS.register("cinnabar_ore", () -> new BlockItemBase(MinerologyBlocks.Cinnabar_Ore.get()));
-    public static final RegistryObject<Item> Craintum_Ore_Item = ITEMS.register("craintum_ore", () -> new BlockItemBase(MinerologyBlocks.Craintum_Ore.get()));
-    public static final RegistryObject<Item> Dandium_Ore_Item = ITEMS.register("dandium_ore", () -> new BlockItemBase(MinerologyBlocks.Dandium_Ore.get()));
     public static final RegistryObject<Item> Diopside_Ore_Item = ITEMS.register("diopside_ore", () -> new BlockItemBase(MinerologyBlocks.Diopside_Ore.get()));
-    public static final RegistryObject<Item> Dithulium_Ore_Item = ITEMS.register("dithulium_ore", () -> new BlockItemBase(MinerologyBlocks.Dithulium_Ore.get()));
-    public static final RegistryObject<Item> Fieryum_Ore_Item = ITEMS.register("fieryum_ore", () -> new BlockItemBase(MinerologyBlocks.Fieryum_Ore.get()));
     public static final RegistryObject<Item> Fluorite_Ore_Item = ITEMS.register("fluorite_ore", () -> new BlockItemBase(MinerologyBlocks.Fluorite_Ore.get()));
     public static final RegistryObject<Item> Germanium_Ore_Item = ITEMS.register("germanium_ore", () -> new BlockItemBase(MinerologyBlocks.Germanium_Ore.get()));
-    public static final RegistryObject<Item> Gingerite_Ore_Item = ITEMS.register("gingerite_ore", () -> new BlockItemBase(MinerologyBlocks.Gingerite_Ore.get()));
     public static final RegistryObject<Item> Jade_Ore_Item = ITEMS.register("jade_ore", () -> new BlockItemBase(MinerologyBlocks.Jade_Ore.get()));
-    public static final RegistryObject<Item> Jenite_Ore_Item = ITEMS.register("jenite_ore", () -> new BlockItemBase(MinerologyBlocks.Jenite_Ore.get()));
-    public static final RegistryObject<Item> Jeromium_Ore_Item = ITEMS.register("jeromium_ore", () -> new BlockItemBase(MinerologyBlocks.Jeromium_Ore.get()));
     public static final RegistryObject<Item> Kyanite_Ore_Item = ITEMS.register("kyanite_ore", () -> new BlockItemBase(MinerologyBlocks.Kyanite_Ore.get()));
-    public static final RegistryObject<Item> Leafyum_Ore_Item = ITEMS.register("leafyum_ore", () -> new BlockItemBase(MinerologyBlocks.Leafyum_Ore.get()));
-    public static final RegistryObject<Item> Logdotium_Ore_Item = ITEMS.register("logdotium_ore", () -> new BlockItemBase(MinerologyBlocks.Logdotium_Ore.get()));
-    public static final RegistryObject<Item> Lunium_Ore_Item = ITEMS.register("lunium_ore", () -> new BlockItemBase(MinerologyBlocks.Lunium_Ore.get()));
-    public static final RegistryObject<Item> Melonlonyum_Ore_Item = ITEMS.register("melonlonyum_ore", () -> new BlockItemBase(MinerologyBlocks.Melonlonyum_Ore.get()));
-    public static final RegistryObject<Item> Mumbonium_Ore_Item = ITEMS.register("mumbonium_ore", () -> new BlockItemBase(MinerologyBlocks.Mumbonium_Ore.get()));
     public static final RegistryObject<Item> Phosphorus_Ore_Item = ITEMS.register("phosphorus_ore", () -> new BlockItemBase(MinerologyBlocks.Phosphorus_Ore.get()));
-    public static final RegistryObject<Item> Pootonium_Ore_Item = ITEMS.register("pootonium_ore", () -> new BlockItemBase(MinerologyBlocks.Pootonium_Ore.get()));
-    public static final RegistryObject<Item> Popularite_Ore_Item = ITEMS.register("popularite_ore", () -> new BlockItemBase(MinerologyBlocks.Popularite_Ore.get()));
-    public static final RegistryObject<Item> Pumpkinite_Ore_Item = ITEMS.register("pumpkinite_ore", () -> new BlockItemBase(MinerologyBlocks.Pumpkinite_Ore.get()));
-    public static final RegistryObject<Item> Redintium_Ore_Item = ITEMS.register("redintium_ore", () -> new BlockItemBase(MinerologyBlocks.Redintium_Ore.get()));
     public static final RegistryObject<Item> Ruby_Ore_Item = ITEMS.register("ruby_ore", () -> new BlockItemBase(MinerologyBlocks.Ruby_Ore.get()));
     public static final RegistryObject<Item> Sapphire_Ore_Item = ITEMS.register("sapphire_ore", () -> new BlockItemBase(MinerologyBlocks.Sapphire_Ore.get()));
     public static final RegistryObject<Item> Selenium_Ore_Item = ITEMS.register("selenium_ore", () -> new BlockItemBase(MinerologyBlocks.Selenium_Ore.get()));
-    public static final RegistryObject<Item> Solium_Ore_Item = ITEMS.register("solium_ore", () -> new BlockItemBase(MinerologyBlocks.Solium_Ore.get()));
-    public static final RegistryObject<Item> Sparkpolium_Ore_Item = ITEMS.register("sparkpolium_ore", () -> new BlockItemBase(MinerologyBlocks.Sparkpolium_Ore.get()));
-    public static final RegistryObject<Item> Ssundium_Ore_Item = ITEMS.register("ssundium_ore", () -> new BlockItemBase(MinerologyBlocks.Ssundium_Ore.get()));
     public static final RegistryObject<Item> Sulfur_Ore_Item = ITEMS.register("sulfur_ore", () -> new BlockItemBase(MinerologyBlocks.Sulfur_Ore.get()));
-    public static final RegistryObject<Item> Teknum_Ore_Item = ITEMS.register("teknum_ore", () -> new BlockItemBase(MinerologyBlocks.Teknum_Ore.get()));
     public static final RegistryObject<Item> Tellurium_Ore_Item = ITEMS.register("tellurium_ore", () -> new BlockItemBase(MinerologyBlocks.Tellurium_Ore.get()));
-    public static final RegistryObject<Item> Theanum_Ore_Item = ITEMS.register("theanum_ore", () -> new BlockItemBase(MinerologyBlocks.Theanum_Ore.get()));
-    public static final RegistryObject<Item> Thinknum_Ore_Item = ITEMS.register("thinknum_ore", () -> new BlockItemBase(MinerologyBlocks.Thinknum_Ore.get()));
     public static final RegistryObject<Item> Topaz_Ore_Item = ITEMS.register("topaz_ore", () -> new BlockItemBase(MinerologyBlocks.Topaz_Ore.get()));
-    public static final RegistryObject<Item> Vibranium_Ore_Item = ITEMS.register("vibranium_ore", () -> new BlockItemBase(MinerologyBlocks.Vibranium_Ore.get()));
-    public static final RegistryObject<Item> Windium_Ore_Item = ITEMS.register("windium_ore", () -> new BlockItemBase(MinerologyBlocks.Windium_Ore.get()));
-    public static final RegistryObject<Item> Wooftonium_Ore_Item = ITEMS.register("wooftonium_ore", () -> new BlockItemBase(MinerologyBlocks.Wooftonium_Ore.get()));
+
 
     // Block Items
     public static final RegistryObject<Item> Actinium_Block_Item = ITEMS.register("actinium_block", () -> new BlockItemBase(MinerologyBlocks.Actinium_Block.get()));
@@ -324,58 +295,28 @@ public class MinerologyItems {
     public static final RegistryObject<Item> Amethyst_Block_Item = ITEMS.register("amethyst_block", () -> new BlockItemBase(MinerologyBlocks.Amethyst_Block.get()));
     public static final RegistryObject<Item> Antimony_Block_Item = ITEMS.register("antimony_block", () -> new BlockItemBase(MinerologyBlocks.Antimony_Block.get()));
     public static final RegistryObject<Item> Apatite_Block_Item = ITEMS.register("apatite_block", () -> new BlockItemBase(MinerologyBlocks.Apatite_Block.get()));
-    public static final RegistryObject<Item> Aquaum_Block_Item = ITEMS.register("aquaum_block", () -> new BlockItemBase(MinerologyBlocks.Aquaum_Block.get()));
     public static final RegistryObject<Item> Arctite_Block_Item = ITEMS.register("arctite_block", () -> new BlockItemBase(MinerologyBlocks.Arctite_Block.get()));
     public static final RegistryObject<Item> Arsenic_Block_Item = ITEMS.register("arsenic_block", () -> new BlockItemBase(MinerologyBlocks.Arsenic_Block.get()));
-    public static final RegistryObject<Item> Avotum_Block_Item = ITEMS.register("avotum_block", () -> new BlockItemBase(MinerologyBlocks.Avotum_Block.get()));
     public static final RegistryObject<Item> Azurite_Block_Item = ITEMS.register("azurite_block", () -> new BlockItemBase(MinerologyBlocks.Azurite_Block.get()));
-    public static final RegistryObject<Item> Balonium_Block_Item = ITEMS.register("balonium_block", () -> new BlockItemBase(MinerologyBlocks.Balonium_Block.get()));
-    public static final RegistryObject<Item> Barite_Block_Item = ITEMS.register("barite_block", () -> new BlockItemBase(MinerologyBlocks.Barite_Block.get()));
-    public static final RegistryObject<Item> Bornite_Block_Item = ITEMS.register("bornite_block", () -> new BlockItemBase(MinerologyBlocks.Bornite_Block.get()));
+    public static final RegistryObject<Item> Bornite_Block_Item = ITEMS.register("barite_block", () -> new BlockItemBase(MinerologyBlocks.Barite_Block.get()));
     public static final RegistryObject<Item> Beryl_Block_Item = ITEMS.register("beryl_block", () -> new BlockItemBase(MinerologyBlocks.Beryl_Block.get()));
     public static final RegistryObject<Item> Boron_Block_Item = ITEMS.register("boron_block", () -> new BlockItemBase(MinerologyBlocks.Boron_Block.get()));
-    public static final RegistryObject<Item> Burptonium_Block_Item = ITEMS.register("burptonium_block", () -> new BlockItemBase(MinerologyBlocks.Burptonium_Block.get()));
     public static final RegistryObject<Item> Calcite_Block_Item = ITEMS.register("calcite_block", () -> new BlockItemBase(MinerologyBlocks.Calcite_Block.get()));
     public static final RegistryObject<Item> Cinnabar_Block_Item = ITEMS.register("cinnabar_block", () -> new BlockItemBase(MinerologyBlocks.Cinnabar_Block.get()));
-    public static final RegistryObject<Item> Craintum_Block_Item = ITEMS.register("craintum_block", () -> new BlockItemBase(MinerologyBlocks.Craintum_Block.get()));
-    public static final RegistryObject<Item> Dandium_Block_Item = ITEMS.register("dandium_block", () -> new BlockItemBase(MinerologyBlocks.Dandium_Block.get()));
     public static final RegistryObject<Item> Diopside_Block_Item = ITEMS.register("diopside_block", () -> new BlockItemBase(MinerologyBlocks.Diopside_Block.get()));
-    public static final RegistryObject<Item> Dithulium_Block_Item = ITEMS.register("dithulium_block", () -> new BlockItemBase(MinerologyBlocks.Dithulium_Block.get()));
-    public static final RegistryObject<Item> Fieryum_Block_Item = ITEMS.register("fieryum_block", () -> new BlockItemBase(MinerologyBlocks.Fieryum_Block.get()));
     public static final RegistryObject<Item> Fluorite_Block_Item = ITEMS.register("fluorite_block", () -> new BlockItemBase(MinerologyBlocks.Fluorite_Block.get()));
     public static final RegistryObject<Item> Germanium_Block_Item = ITEMS.register("germanium_block", () -> new BlockItemBase(MinerologyBlocks.Germanium_Block.get()));
-    public static final RegistryObject<Item> Gingerite_Block_Item = ITEMS.register("gingerite_block", () -> new BlockItemBase(MinerologyBlocks.Gingerite_Block.get()));
     public static final RegistryObject<Item> Jade_Block_Item = ITEMS.register("jade_block", () -> new BlockItemBase(MinerologyBlocks.Jade_Block.get()));
-    public static final RegistryObject<Item> Jenite_Block_Item = ITEMS.register("jenite_block", () -> new BlockItemBase(MinerologyBlocks.Jenite_Block.get()));
-    public static final RegistryObject<Item> Jeromium_Block_Item = ITEMS.register("jeromium_block", () -> new BlockItemBase(MinerologyBlocks.Jeromium_Block.get()));
     public static final RegistryObject<Item> Kyanite_Block_Item = ITEMS.register("kyanite_block", () -> new BlockItemBase(MinerologyBlocks.Kyanite_Block.get()));
-    public static final RegistryObject<Item> Leafyum_Block_Item = ITEMS.register("leafyum_block", () -> new BlockItemBase(MinerologyBlocks.Leafyum_Block.get()));
-    public static final RegistryObject<Item> Logdotium_Block_Item = ITEMS.register("logdotium_block", () -> new BlockItemBase(MinerologyBlocks.Logdotium_Block.get()));
-    public static final RegistryObject<Item> Lunium_Block_Item = ITEMS.register("lunium_block", () -> new BlockItemBase(MinerologyBlocks.Lunium_Block.get()));
-    public static final RegistryObject<Item> Melonlonyum_Block_Item = ITEMS.register("melonlonyum_block", () -> new BlockItemBase(MinerologyBlocks.Melonlonyum_Block.get()));
-    public static final RegistryObject<Item> Mumbonium_Block_Item = ITEMS.register("mumbonium_block", () -> new BlockItemBase(MinerologyBlocks.Mumbonium_Block.get()));
     public static final RegistryObject<Item> Phosphorus_Block_Item = ITEMS.register("phosphorus_block", () -> new BlockItemBase(MinerologyBlocks.Phosphorus_Block.get()));
-    public static final RegistryObject<Item> Pootonium_Block_Item = ITEMS.register("pootonium_block", () -> new BlockItemBase(MinerologyBlocks.Pootonium_Block.get()));
-    public static final RegistryObject<Item> Popularite_Block_Item = ITEMS.register("popularite_block", () -> new BlockItemBase(MinerologyBlocks.Popularite_Block.get()));
-    public static final RegistryObject<Item> Pumpkinite_Block_Item = ITEMS.register("pumpkinite_block", () -> new BlockItemBase(MinerologyBlocks.Pumpkinite_Block.get()));
-    public static final RegistryObject<Item> Redintium_Block_Item = ITEMS.register("redintium_block", () -> new BlockItemBase(MinerologyBlocks.Redintium_Block.get()));
     public static final RegistryObject<Item> Ruby_Block_Item = ITEMS.register("ruby_block", () -> new BlockItemBase(MinerologyBlocks.Ruby_Block.get()));
     public static final RegistryObject<Item> Sapphire_Block_Item = ITEMS.register("sapphire_block", () -> new BlockItemBase(MinerologyBlocks.Sapphire_Block.get()));
     public static final RegistryObject<Item> Selenium_Block_Item = ITEMS.register("selenium_block", () -> new BlockItemBase(MinerologyBlocks.Selenium_Block.get()));
     public static final RegistryObject<Item> Silicon_Block_Item = ITEMS.register("silicon_block", () -> new BlockItemBase(MinerologyBlocks.Silicon_Block.get()));
     public static final RegistryObject<Item> Sodium_Block_Item = ITEMS.register("sodium_block", () -> new BlockItemBase(MinerologyBlocks.Sodium_Block.get()));
-    public static final RegistryObject<Item> Solium_Block_Item = ITEMS.register("solium_block", () -> new BlockItemBase(MinerologyBlocks.Solium_Block.get()));
-    public static final RegistryObject<Item> Sparkpolium_Block_Item = ITEMS.register("sparkpolium_block", () -> new BlockItemBase(MinerologyBlocks.Sparkpolium_Block.get()));
-    public static final RegistryObject<Item> Ssundium_Block_Item = ITEMS.register("ssundium_block", () -> new BlockItemBase(MinerologyBlocks.Ssundium_Block.get()));
     public static final RegistryObject<Item> Sulfur_Block_Item = ITEMS.register("sulfur_block", () -> new BlockItemBase(MinerologyBlocks.Sulfur_Block.get()));
-    public static final RegistryObject<Item> Teknum_Block_Item = ITEMS.register("teknum_block", () -> new BlockItemBase(MinerologyBlocks.Teknum_Block.get()));
     public static final RegistryObject<Item> Tellurium_Block_Item = ITEMS.register("tellurium_block", () -> new BlockItemBase(MinerologyBlocks.Tellurium_Block.get()));
-    public static final RegistryObject<Item> Theanum_Block_Item = ITEMS.register("theanum_block", () -> new BlockItemBase(MinerologyBlocks.Theanum_Block.get()));
-    public static final RegistryObject<Item> Thinknum_Block_Item = ITEMS.register("thinknum_block", () -> new BlockItemBase(MinerologyBlocks.Thinknum_Block.get()));
     public static final RegistryObject<Item> Topaz_Block_Item = ITEMS.register("topaz_block", () -> new BlockItemBase(MinerologyBlocks.Topaz_Block.get()));
-    public static final RegistryObject<Item> Vibranium_Block_Item = ITEMS.register("vibranium_block", () -> new BlockItemBase(MinerologyBlocks.Vibranium_Block.get()));
-    public static final RegistryObject<Item> Windium_Block_Item = ITEMS.register("windium_block", () -> new BlockItemBase(MinerologyBlocks.Windium_Block.get()));
-    public static final RegistryObject<Item> Wooftonium_Block_Item = ITEMS.register("wooftonium_block", () -> new BlockItemBase(MinerologyBlocks.Wooftonium_Block.get()));
 
     // Tools
     public  static final RegistryObject<SwordItem> Aluminum_Sword = ITEMS.register("aluminum_sword", () ->
@@ -387,7 +328,7 @@ public class MinerologyItems {
     public  static final RegistryObject<ShovelItem> Aluminum_Shovel = ITEMS.register("aluminum_shovel", () ->
             new ShovelItem(MinerologyItemTier.ALUMINUM, 1, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<HoeItem> Aluminum_Hoe = ITEMS.register("aluminum_hoe", () ->
-            new HoeItem(MinerologyItemTier.ALUMINUM, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.ALUMINUM, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Beryllium_Sword = ITEMS.register("beryllium_sword", () ->
             new SwordItem(MinerologyItemTier.BERYLLIUM, 5, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -398,7 +339,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Beryllium_Shovel = ITEMS.register("beryllium_shovel", () ->
             new ShovelItem(MinerologyItemTier.BERYLLIUM, 3, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Beryllium_Hoe = ITEMS.register("beryllium_hoe", () ->
-            new HoeItem(MinerologyItemTier.BERYLLIUM, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.BERYLLIUM, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Bismuth_Sword = ITEMS.register("bismuth_sword", () ->
             new SwordItem(MinerologyItemTier.BISMUTH, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -409,7 +350,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Bismuth_Shovel = ITEMS.register("bismuth_shovel", () ->
             new ShovelItem(MinerologyItemTier.BISMUTH, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Bismuth_Hoe = ITEMS.register("bismuth_hoe", () ->
-            new HoeItem(MinerologyItemTier.BISMUTH, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.BISMUTH, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Chromium_Sword = ITEMS.register("chromium_sword", () ->
             new SwordItem(MinerologyItemTier.CHROMIUM, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -420,7 +361,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Chromium_Shovel = ITEMS.register("chromium_shovel", () ->
             new ShovelItem(MinerologyItemTier.CHROMIUM, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Chromium_Hoe = ITEMS.register("chromium_hoe", () ->
-            new HoeItem(MinerologyItemTier.CHROMIUM, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.CHROMIUM, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Cobalt_Sword = ITEMS.register("cobalt_sword", () ->
             new SwordItem(MinerologyItemTier.COBALT, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -431,7 +372,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Cobalt_Shovel = ITEMS.register("cobalt_shovel", () ->
             new ShovelItem(MinerologyItemTier.COBALT, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Cobalt_Hoe = ITEMS.register("cobalt_hoe", () ->
-            new HoeItem(MinerologyItemTier.COBALT, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.COBALT, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Copper_Sword = ITEMS.register("copper_sword", () ->
             new SwordItem(MinerologyItemTier.COPPER, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -442,7 +383,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Copper_Shovel = ITEMS.register("copper_shovel", () ->
             new ShovelItem(MinerologyItemTier.COPPER, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Copper_Hoe = ITEMS.register("copper_hoe", () ->
-            new HoeItem(MinerologyItemTier.COPPER, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.COPPER, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Indium_Sword = ITEMS.register("indium_sword", () ->
             new SwordItem(MinerologyItemTier.INDIUM, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -453,7 +394,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Indium_Shovel = ITEMS.register("indium_shovel", () ->
             new ShovelItem(MinerologyItemTier.INDIUM, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Indium_Hoe = ITEMS.register("indium_hoe", () ->
-            new HoeItem(MinerologyItemTier.INDIUM, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.INDIUM, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Iridium_Sword = ITEMS.register("iridium_sword", () ->
             new SwordItem(MinerologyItemTier.IRIDIUM, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -464,7 +405,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Iridium_Shovel = ITEMS.register("iridium_shovel", () ->
             new ShovelItem(MinerologyItemTier.IRIDIUM, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Iridium_Hoe = ITEMS.register("iridium_hoe", () ->
-            new HoeItem(MinerologyItemTier.IRIDIUM, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.IRIDIUM, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Nickel_Sword = ITEMS.register("nickel_sword", () ->
             new SwordItem(MinerologyItemTier.NICKEL, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -475,7 +416,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Nickel_Shovel = ITEMS.register("nickel_shovel", () ->
             new ShovelItem(MinerologyItemTier.NICKEL, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Nickel_Hoe = ITEMS.register("nickel_hoe", () ->
-            new HoeItem(MinerologyItemTier.NICKEL, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.NICKEL, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Osmium_Sword = ITEMS.register("osmium_sword", () ->
             new SwordItem(MinerologyItemTier.OSMIUM, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -486,7 +427,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Osmium_Shovel = ITEMS.register("osmium_shovel", () ->
             new ShovelItem(MinerologyItemTier.OSMIUM, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Osmium_Hoe = ITEMS.register("osmium_hoe", () ->
-            new HoeItem(MinerologyItemTier.OSMIUM, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.OSMIUM, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Platinum_Sword = ITEMS.register("platinum_sword", () ->
             new SwordItem(MinerologyItemTier.PLATINUM, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -497,7 +438,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Platinum_Shovel = ITEMS.register("platinum_shovel", () ->
             new ShovelItem(MinerologyItemTier.PLATINUM, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Platinum_Hoe = ITEMS.register("platinum_hoe", () ->
-            new HoeItem(MinerologyItemTier.PLATINUM, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.PLATINUM, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Silver_Sword = ITEMS.register("silver_sword", () ->
             new SwordItem(MinerologyItemTier.SILVER, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -508,7 +449,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Silver_Shovel = ITEMS.register("silver_shovel", () ->
             new ShovelItem(MinerologyItemTier.SILVER, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Silver_Hoe = ITEMS.register("silver_hoe", () ->
-            new HoeItem(MinerologyItemTier.SILVER, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.SILVER, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Tantalum_Sword = ITEMS.register("tantalum_sword", () ->
             new SwordItem(MinerologyItemTier.TANTALUM, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -519,7 +460,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Tantalum_Shovel = ITEMS.register("tantalum_shovel", () ->
             new ShovelItem(MinerologyItemTier.TANTALUM, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Tantalum_Hoe = ITEMS.register("tantalum_hoe", () ->
-            new HoeItem(MinerologyItemTier.TANTALUM, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.TANTALUM, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Tin_Sword = ITEMS.register("tin_sword", () ->
             new SwordItem(MinerologyItemTier.TIN, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -530,7 +471,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Tin_Shovel = ITEMS.register("tin_shovel", () ->
             new ShovelItem(MinerologyItemTier.TIN, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Tin_Hoe = ITEMS.register("tin_hoe", () ->
-            new HoeItem(MinerologyItemTier.TIN, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.TIN, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Titanium_Sword = ITEMS.register("titanium_sword", () ->
             new SwordItem(MinerologyItemTier.TITANIUM, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -541,7 +482,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Titanium_Shovel = ITEMS.register("titanium_shovel", () ->
             new ShovelItem(MinerologyItemTier.TITANIUM, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Titanium_Hoe = ITEMS.register("titanium_hoe", () ->
-            new HoeItem(MinerologyItemTier.TITANIUM, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.TITANIUM, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Tungsten_Sword = ITEMS.register("tungsten_sword", () ->
             new SwordItem(MinerologyItemTier.TUNGSTEN, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -552,7 +493,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Tungsten_Shovel = ITEMS.register("tungsten_shovel", () ->
             new ShovelItem(MinerologyItemTier.TUNGSTEN, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Tungsten_Hoe = ITEMS.register("tungsten_hoe", () ->
-            new HoeItem(MinerologyItemTier.TUNGSTEN, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.TUNGSTEN, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Obsidian_Sword = ITEMS.register("obsidian_sword", () ->
             new SwordItem(MinerologyItemTier.OBSIDIAN, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -563,7 +504,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Obsidian_Shovel = ITEMS.register("obsidian_shovel", () ->
             new ShovelItem(MinerologyItemTier.OBSIDIAN, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Obsidian_Hoe = ITEMS.register("obsidian_hoe", () ->
-            new HoeItem(MinerologyItemTier.OBSIDIAN, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.OBSIDIAN, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Lapis_Sword = ITEMS.register("lapis_sword", () ->
             new SwordItem(MinerologyItemTier.LAPIS, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -574,7 +515,7 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Lapis_Shovel = ITEMS.register("lapis_shovel", () ->
             new ShovelItem(MinerologyItemTier.LAPIS, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Lapis_Hoe = ITEMS.register("lapis_hoe", () ->
-            new HoeItem(MinerologyItemTier.LAPIS, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.LAPIS, -2, 1, new Item.Properties().group(Minerology.TAB)));
 
     public  static final RegistryObject<Item> Emerald_Sword = ITEMS.register("emerald_sword", () ->
             new SwordItem(MinerologyItemTier.EMERALD, 4, -2.4F, new Item.Properties().group(Minerology.TAB)));
@@ -585,5 +526,5 @@ public class MinerologyItems {
     public  static final RegistryObject<Item> Emerald_Shovel = ITEMS.register("emerald_shovel", () ->
             new ShovelItem(MinerologyItemTier.EMERALD, 2, -3F, new Item.Properties().group(Minerology.TAB)));
     public  static final RegistryObject<Item> Emerald_Hoe = ITEMS.register("emerald_hoe", () ->
-            new HoeItem(MinerologyItemTier.EMERALD, -2, new Item.Properties().group(Minerology.TAB)));
+            new HoeItem(MinerologyItemTier.EMERALD, -2, 1, new Item.Properties().group(Minerology.TAB)));
 }

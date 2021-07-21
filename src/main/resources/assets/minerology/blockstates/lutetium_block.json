@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:lutetium_block"}
+      "": {"model":"minerology:block/lutetium_block"}
    }
 }

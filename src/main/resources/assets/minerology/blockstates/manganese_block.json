@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:manganese_block"}
+      "": {"model":"minerology:block/manganese_block"}
    }
 }

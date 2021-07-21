@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:gadolinium_block"}
+      "": {"model":"minerology:block/gadolinium_block"}
    }
 }

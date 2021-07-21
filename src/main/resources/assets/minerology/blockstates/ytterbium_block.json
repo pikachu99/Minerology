@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:ytterbium_block"}
+      "": {"model":"minerology:block/ytterbium_block"}
    }
 }

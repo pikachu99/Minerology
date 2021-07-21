@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/amethyst_block",
-
+   "parent": "minerology:block/amethyst_block"
 }

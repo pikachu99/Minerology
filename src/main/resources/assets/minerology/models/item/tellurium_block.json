@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/tellurium_block",
-
+   "parent": "minerology:block/tellurium_block"
 }

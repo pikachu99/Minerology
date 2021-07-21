@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:calcite_ore"}
+      "": {"model":"minerology:block/calcite_ore"}
    }
 }

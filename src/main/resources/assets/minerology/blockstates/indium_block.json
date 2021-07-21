@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:indium_block"}
+      "": {"model":"minerology:block/indium_block"}
    }
 }

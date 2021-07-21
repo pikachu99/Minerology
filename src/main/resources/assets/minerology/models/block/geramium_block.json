@@ -1,6 +1,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-      "all": "minerology:blocks/geramium_block"
+      "all": "minerology:blocks/germanium_block"
    }
 }

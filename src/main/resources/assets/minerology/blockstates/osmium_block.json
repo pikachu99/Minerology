@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:osmium_block"}
+      "": {"model":"minerology:block/osmium_block"}
    }
 }

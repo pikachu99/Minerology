@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:samarium_block"}
+      "": {"model":"minerology:block/samarium_block"}
    }
 }

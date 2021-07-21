@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:ruthenium_block"}
+      "": {"model":"minerology:block/ruthenium_block"}
    }
 }

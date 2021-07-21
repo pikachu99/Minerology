@@ -8,7 +8,7 @@ import net.minecraftforge.common.ToolType;
 public class SiliconOre extends Block {
     public SiliconOre() {
         super(Block.Properties.create(Material.ROCK)
-                .hardnessAndResistance(3.0f, 0f)
+                .hardnessAndResistance(6.5f, 5f)
                 .sound(SoundType.STONE)
                 .harvestLevel(1)
                 .harvestTool(ToolType.PICKAXE)

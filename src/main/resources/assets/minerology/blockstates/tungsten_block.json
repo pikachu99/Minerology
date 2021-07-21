@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:tungsten_block"}
+      "": {"model":"minerology:block/tungsten_block"}
    }
 }

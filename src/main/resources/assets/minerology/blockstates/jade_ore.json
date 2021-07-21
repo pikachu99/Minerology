@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:jade_ore"}
+      "": {"model":"minerology:block/jade_ore"}
    }
 }

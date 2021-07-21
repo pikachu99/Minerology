@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:nobelium_block"}
+      "": {"model":"minerology:block/nobelium_block"}
    }
 }

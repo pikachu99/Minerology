@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:tennessine_block"}
+      "": {"model":"minerology:block/tennessine_block"}
    }
 }

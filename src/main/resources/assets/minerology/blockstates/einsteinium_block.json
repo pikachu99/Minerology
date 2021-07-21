@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:einsteinium_block"}
+      "": {"model":"minerology:block/einsteinium_block"}
    }
 }

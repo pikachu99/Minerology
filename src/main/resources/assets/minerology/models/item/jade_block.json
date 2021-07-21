@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/jade_block",
-
+   "parent": "minerology:block/jade_block"
 }

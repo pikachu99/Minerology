@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:cinnabar_ore"}
+      "": {"model":"minerology:block/cinnabar_ore"}
    }
 }

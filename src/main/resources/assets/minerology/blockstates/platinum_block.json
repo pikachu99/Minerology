@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:platinum_block"}
+      "": {"model":"minerology:block/platinum_block"}
    }
 }

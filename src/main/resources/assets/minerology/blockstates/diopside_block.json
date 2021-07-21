@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:diopside_block"}
+      "": {"model":"minerology:block/diopside_block"}
    }
 }

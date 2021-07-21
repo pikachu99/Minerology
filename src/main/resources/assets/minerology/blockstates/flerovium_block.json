@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:flerovium_block"}
+      "": {"model":"minerology:block/flerovium_block"}
    }
 }

@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:barnite_block"}
+      "": {"model":"minerology:block/barnite_block"}
    }
 }

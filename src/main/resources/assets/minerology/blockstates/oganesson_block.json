@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:oganesson_block"}
+      "": {"model":"minerology:block/oganesson_block"}
    }
 }

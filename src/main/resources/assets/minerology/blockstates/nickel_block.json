@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:nickel_block"}
+      "": {"model":"minerology:block/nickel_block"}
    }
 }

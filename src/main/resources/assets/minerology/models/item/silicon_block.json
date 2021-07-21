@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/silicon_block",
-
+   "parent": "minerology:block/silicon_block"
 }
