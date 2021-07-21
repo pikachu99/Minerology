@@ -20,36 +20,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66906fac-d306-4f1c-ace5-afc818b929e1" name="Default Changelist" comment="Added Metal Blocks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AegirineOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AmberOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AmethystOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AntimonyOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ApatiteOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AquaumOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ArctiteOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ArsenicOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AvotumOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AegirineBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AmberBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AmethystBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AntimonyBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ApatiteBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ArctiteBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/ArsenicBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AzuriteBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/AzuriteOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/BariteBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/BariteOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/BerylBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/BerylOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/BoronBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/BoronOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/CalciteBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/CalciteOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/CinnabarBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/CinnabarOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/DiopsideBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/DiopsideOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/FluoriteBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/FluoriteOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/GermaniumBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/GermaniumOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/JadeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/JadeOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/KyaniteBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/KyaniteOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/PhosphorusBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/PhosphorusOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/RubyBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/RubyOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/SapphireBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/SapphireOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/SeleniumBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/SeleniumOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/SulfurBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/SulfurOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/TelluriumBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/TelluriumOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/TopazBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/blocks/TopazOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/germanium_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/germanium_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/Minerology$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/Minerology$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/Minerology.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/Minerology.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minerology/models/item/actinium_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/minerology/models/item/actinium_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/Minerology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/Minerology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyDimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyDimensions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/init/MinerologyItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/MinerologyOreGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/MinerologyOreGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundDimension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundGenSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theredinventor/minerology/world/dimension/UndergroundGenSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/actinium_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/actinium_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ActiniumBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ActiniumBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ActiniumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ActiniumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/AluminumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/AluminumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/BariumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/BariumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/BismuthOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/BismuthOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CadmiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CadmiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CaesiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CaesiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CalciumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CalciumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CeriumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CeriumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ChromiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ChromiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CobaltOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CobaltOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CopperOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/CopperOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/DysprosiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/DysprosiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ErbiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ErbiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/EuropiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/EuropiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/FranciumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/FranciumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/GadoliniumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/GadoliniumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/GalliumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/GalliumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/HafniumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/HafniumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/HolmiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/HolmiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/IndiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/IndiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/IridiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/IridiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/LanthanumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/LanthanumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/LeadOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/LeadOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/LithiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/LithiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/LutetiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/LutetiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/MagnesiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/MagnesiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ManganeseOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ManganeseOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/MendeleviumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/MendeleviumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/MercuryOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/MercuryOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/MolybdenumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/MolybdenumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/NickelOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/NickelOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/NiobiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/NiobiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/OsmiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/OsmiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PalladiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PalladiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PlatinumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PlatinumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PoloniumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PoloniumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PotassiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PotassiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PraseodymiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/PraseodymiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ProtactiniumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/ProtactiniumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/RadiumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/RadiumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/RheniumOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/theredinventor/minerology/blocks/RheniumOre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" beforeDir="false" afterPath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/barnite.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/barnite_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/barnite_ore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/geramium_block.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minerology/models/item/geramium_ore.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +152,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1gfcehGf8SkQhQIdpsP0BJotbsP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -81,7 +167,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.runClient" />
+  <component name="RunManager" selected="Application.runClient">
+    <list>
+      <item itemvalue="Application.runClient" />
+      <item itemvalue="Application.runData" />
+      <item itemvalue="Application.runServer" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -120,93 +212,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added Metal Blocks" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="198" key="#Inspections" timestamp="1609443813441">
+    <state width="2517" height="254" key="GridCell.Tab.0.bottom" timestamp="1626893676447">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="372" y="198" key="#Inspections/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609443813441" />
-    <state x="158" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609293268178">
+    <state width="2517" height="254" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.-91.1920.1040@0.0.2560.1040" timestamp="1626893676447" />
+    <state width="2517" height="254" key="GridCell.Tab.0.center" timestamp="1626893676447">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="158" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609293268178" />
-    <state x="590" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1613556580518">
+    <state width="2517" height="254" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.-91.1920.1040@0.0.2560.1040" timestamp="1626893676447" />
+    <state width="2517" height="254" key="GridCell.Tab.0.left" timestamp="1626893676446">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="590" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1613556580518" />
-    <state x="434" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1610530982494">
+    <state width="2517" height="254" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.-91.1920.1040@0.0.2560.1040" timestamp="1626893676446" />
+    <state width="2517" height="254" key="GridCell.Tab.0.right" timestamp="1626893676447">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="434" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610530982494" />
-    <state x="565" y="261" key="FileChooserDialogImpl" timestamp="1616624369821">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="565" y="261" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1616624369821" />
-    <state width="1373" height="258" key="GridCell.Tab.0.bottom" timestamp="1612936687314">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1373" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1612936687314" />
-    <state width="1373" height="258" key="GridCell.Tab.0.center" timestamp="1612936687314">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1373" height="258" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1612936687314" />
-    <state width="1373" height="258" key="GridCell.Tab.0.left" timestamp="1612936687314">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1373" height="258" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1612936687314" />
-    <state width="1373" height="258" key="GridCell.Tab.0.right" timestamp="1612936687314">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1373" height="258" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1612936687314" />
-    <state width="2517" height="344" key="GridCell.Tab.1.bottom" timestamp="1610414163290">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="2517" height="344" key="GridCell.Tab.1.bottom/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610414163290" />
-    <state width="2517" height="344" key="GridCell.Tab.1.center" timestamp="1610414163290">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="2517" height="344" key="GridCell.Tab.1.center/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610414163290" />
-    <state width="2517" height="344" key="GridCell.Tab.1.left" timestamp="1610414163290">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="2517" height="344" key="GridCell.Tab.1.left/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610414163290" />
-    <state width="2517" height="344" key="GridCell.Tab.1.right" timestamp="1610414163290">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="2517" height="344" key="GridCell.Tab.1.right/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610414163290" />
-    <state x="365" y="255" key="IDE.errors.dialog" timestamp="1609399442350">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="365" y="255" key="IDE.errors.dialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609399442350" />
-    <state x="976" y="222" key="RollbackChangesDialog" timestamp="1610413337412">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="976" y="222" key="RollbackChangesDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610413337412" />
-    <state x="286" y="165" key="SettingsEditor" timestamp="1609402238790">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="286" y="165" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1609402238790" />
-    <state x="-1920" y="0" width="1936" height="1027" key="dock-window-1" timestamp="1610531200857">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1920" y="0" width="1936" height="1027" key="dock-window-1/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610531200857" />
-    <state x="-1489" y="0" width="925" height="733" key="dock-window-2" timestamp="1610532787647">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1489" y="0" width="925" height="733" key="dock-window-2/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610532787647" />
-    <state x="-976" y="93" width="925" height="712" key="dock-window-3" timestamp="1610533894944">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-976" y="93" width="925" height="712" key="dock-window-3/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610533894944" />
-    <state x="403" y="253" width="585" height="534" key="find.popup" timestamp="1610529744547">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="403" y="253" width="585" height="534" key="find.popup/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610529744547" />
-    <state x="1106" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1610091924302">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1106" y="277" key="refactoring.ChangeSignatureDialog/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610091924302" />
-    <state x="448" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1610533645814">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="448" y="229" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/-1920.0.1920.1040@0.0.2560.1040" timestamp="1610533645814" />
+    <state width="2517" height="254" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.-91.1920.1040@0.0.2560.1040" timestamp="1626893676447" />
   </component>
 </project>

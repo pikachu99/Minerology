@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:lithium_block"}
+      "": {"model":"minerology:block/lithium_block"}
    }
 }

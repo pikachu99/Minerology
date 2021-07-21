@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:antimony_ore"}
+      "": {"model":"minerology:block/antimony_ore"}
    }
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "minerology:block/caesium_ore" }
+    "": { "model": "minerology:block/block/caesium_ore" }
   }
 }

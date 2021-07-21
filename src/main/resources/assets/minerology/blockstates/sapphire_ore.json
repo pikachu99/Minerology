@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:sapphire_ore"}
+      "": {"model":"minerology:block/sapphire_ore"}
    }
 }

@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:bohrium_block"}
+      "": {"model":"minerology:block/bohrium_block"}
    }
 }

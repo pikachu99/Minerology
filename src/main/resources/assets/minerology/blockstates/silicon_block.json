@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:silicon_block"}
+      "": {"model":"minerology:block/silicon_block"}
    }
 }

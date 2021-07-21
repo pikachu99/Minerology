@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:mercury_block"}
+      "": {"model":"minerology:block/mercury_block"}
    }
 }

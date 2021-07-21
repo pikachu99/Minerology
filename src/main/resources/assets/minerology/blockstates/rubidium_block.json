@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:rubidium_block"}
+      "": {"model":"minerology:block/rubidium_block"}
    }
 }

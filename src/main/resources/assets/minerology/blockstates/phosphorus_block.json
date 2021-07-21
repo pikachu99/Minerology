@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:phosphorus_block"}
+      "": {"model":"minerology:block/phosphorus_block"}
    }
 }

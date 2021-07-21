@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:zinc_block"}
+      "": {"model":"minerology:block/zinc_block"}
    }
 }

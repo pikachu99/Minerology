@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:cadmium_block"}
+      "": {"model":"minerology:block/cadmium_block"}
    }
 }

@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/calcite_block",
-
+   "parent": "minerology:block/calcite_block"
 }

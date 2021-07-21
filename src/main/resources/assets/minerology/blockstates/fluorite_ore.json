@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:fluorite_ore"}
+      "": {"model":"minerology:block/fluorite_ore"}
    }
 }

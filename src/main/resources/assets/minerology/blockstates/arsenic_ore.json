@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:arsenic_ore"}
+      "": {"model":"minerology:block/arsenic_ore"}
    }
 }

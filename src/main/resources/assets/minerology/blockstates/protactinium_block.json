@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:protactinium_block"}
+      "": {"model":"minerology:block/protactinium_block"}
    }
 }

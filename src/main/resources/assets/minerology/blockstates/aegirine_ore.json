@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:aegirine_ore"}
+      "": {"model":"minerology:block/aegirine_ore"}
    }
 }

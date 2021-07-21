@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:arctite_block"}
+      "": {"model":"minerology:block/arctite_block"}
    }
 }

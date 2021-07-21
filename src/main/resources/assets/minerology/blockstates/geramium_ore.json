@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:geramium_ore"}
+      "": {"model":"minerology:block/geramium_ore"}
    }
 }

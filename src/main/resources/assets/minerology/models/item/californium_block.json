@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:blocks/californium_block",
-   
+   "parent": "minerology:block/californium_block"
 }

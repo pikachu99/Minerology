@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:selenium_ore"}
+      "": {"model":"minerology:block/selenium_ore"}
    }
 }

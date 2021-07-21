@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:promethium_block"}
+      "": {"model":"minerology:block/promethium_block"}
    }
 }

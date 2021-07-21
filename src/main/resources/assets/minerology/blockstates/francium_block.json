@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:francium_block"}
+      "": {"model":"minerology:block/francium_block"}
    }
 }

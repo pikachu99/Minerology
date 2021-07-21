@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:tellurium_block"}
+      "": {"model":"minerology:block/tellurium_block"}
    }
 }

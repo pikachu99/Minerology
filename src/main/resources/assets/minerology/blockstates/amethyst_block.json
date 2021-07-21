@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:amethyst_block"}
+      "": {"model":"minerology:block/amethyst_block"}
    }
 }

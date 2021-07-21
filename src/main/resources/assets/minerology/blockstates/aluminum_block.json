@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:aluminum_block"}
+      "": {"model":"minerology:block/aluminum_block"}
    }
 }

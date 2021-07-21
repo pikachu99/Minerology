@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:boron_ore"}
+      "": {"model":"minerology:block/boron_ore"}
    }
 }

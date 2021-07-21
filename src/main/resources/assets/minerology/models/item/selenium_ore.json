@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/selenium_ore",
-
+   "parent": "minerology:block/selenium_ore"
 }

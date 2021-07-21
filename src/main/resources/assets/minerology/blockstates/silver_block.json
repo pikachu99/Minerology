@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:silver_block"}
+      "": {"model":"minerology:block/silver_block"}
    }
 }

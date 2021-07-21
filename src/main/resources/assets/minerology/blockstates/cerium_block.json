@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:cerium_block"}
+      "": {"model":"minerology:block/cerium_block"}
    }
 }

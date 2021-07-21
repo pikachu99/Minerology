@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:lead_block"}
+      "": {"model":"minerology:block/lead_block"}
    }
 }

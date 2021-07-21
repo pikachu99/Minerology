@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:amber_ore"}
+      "": {"model":"minerology:block/amber_ore"}
    }
 }

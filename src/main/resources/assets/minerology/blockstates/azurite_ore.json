@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:azurite_ore"}
+      "": {"model":"minerology:block/azurite_ore"}
    }
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "minerology:block/barium_ore" }
+    "": { "model": "minerology:block/block/barium_ore" }
   }
 }

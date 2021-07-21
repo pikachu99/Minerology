@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:beryllium_block"}
+      "": {"model":"minerology:block/beryllium_block"}
    }
 }

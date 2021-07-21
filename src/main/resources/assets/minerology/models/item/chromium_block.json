@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:blocks/chromium_block"
-   
+   "parent": "minerology:block/chromium_block"
 }

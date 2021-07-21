@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:copper_block"}
+      "": {"model":"minerology:block/copper_block"}
    }
 }

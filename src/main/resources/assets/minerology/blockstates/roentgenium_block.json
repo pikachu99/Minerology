@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:roentgenium_block"}
+      "": {"model":"minerology:block/roentgenium_block"}
    }
 }

@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:lunium_ore"}
+      "": {"model":"minerology:block/lunium_ore"}
    }
 }

@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:chromium_block"}
+      "": {"model":"minerology:block/chromium_block"}
    }
 }

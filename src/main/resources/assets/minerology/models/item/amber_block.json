@@ -1,4 +1,3 @@
 {
-   "parent": "minerology:block/amber_block",
-
+   "parent": "minerology:block/amber_block"
 }

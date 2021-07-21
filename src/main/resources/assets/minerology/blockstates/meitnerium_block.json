@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:meitnerium_block"}
+      "": {"model":"minerology:block/meitnerium_block"}
    }
 }

@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:terbium_block"}
+      "": {"model":"minerology:block/terbium_block"}
    }
 }

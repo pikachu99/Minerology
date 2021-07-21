@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:calcium_block"}
+      "": {"model":"minerology:block/calcium_block"}
    }
 }

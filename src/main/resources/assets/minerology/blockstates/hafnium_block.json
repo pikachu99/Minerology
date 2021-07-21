@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:hafnium_block"}
+      "": {"model":"minerology:block/hafnium_block"}
    }
 }

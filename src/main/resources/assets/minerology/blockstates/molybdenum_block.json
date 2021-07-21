@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:molybdenum_block"}
+      "": {"model":"minerology:block/molybdenum_block"}
    }
 }

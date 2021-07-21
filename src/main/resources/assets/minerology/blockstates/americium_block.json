@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:americium_block"}
+      "": {"model":"minerology:block/americium_block"}
    }
 }

@@ -1,5 +1,5 @@
 {
    "variants": {
-      "": {"model":"minerology:bismuth_block"}
+      "": {"model":"minerology:block/bismuth_block"}
    }
 }
