@@ -1,53 +1,53 @@
 package com.theredinventor.minerology;
 
-import com.theredinventor.minerology.init.*;
-import com.theredinventor.minerology.world.MinerologyOreGen;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import com.mojang.logging.LogUtils;
+import com.theredinventor.minerology.init.CreativeTabInit;
+import com.theredinventor.minerology.init.ItemInit;
+import com.theredinventor.minerology.init.BlockInit;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.world.BiomeLoadingEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.ForgeRegistries;
+import org.slf4j.Logger;
 
 
-
-@Mod("minerology")
-@Mod.EventBusSubscriber(modid = Minerology.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod(Minerology.MODID)
 public class Minerology
 {
-    public static final String MOD_ID = "minerology";
+    public static final String MODID = "minerology";
+    private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Minerology() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+    public Minerology()
+    {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        MinerologyBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        MinerologyItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        //MinerologyDimensions.MOD_DIMENSIONS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        //MinerologyBiomes.BIOMES.register(FMLJavaModLoadingContext.get().getModEventBus());
-        MinerologyEffects.EFFECTS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        //MinerologyEntity.ENTITY_TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());
+        modEventBus.addListener(this::commonSetup);
+
+        BlockInit.BLOCKS.register(modEventBus);
+        ItemInit.ITEMS.register(modEventBus);
+        CreativeTabInit.TABS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
+
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
+    private void commonSetup(final FMLCommonSetupEvent event)
+    {
+        LOGGER.info("HELLO FROM COMMON SETUP");
 
-    private void setup(final FMLCommonSetupEvent event) {
+        if (Config.logDirtBlock)
+            LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
+
+        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
+
+        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
 
-    private void doClientStuff(final FMLClientSetupEvent event) { }
-
-    public static void loadCompleteEvent(BiomeLoadingEvent event){
-        MinerologyOreGen.generationOres(event);
-    }
-
-    public static final ItemGroup TAB = new ItemGroup("minerology_metal"){
-        @Override
-        public ItemStack createIcon(){
-            return new ItemStack(MinerologyItems.Actinium_Ingot.get());
-        }
-    };
 }

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minerology:tungsten_ore"
-  },
-  "result": "minerology:tungsten_ingot",
-  "experience": 1.0,
-  "cookingtime": 200
-}
