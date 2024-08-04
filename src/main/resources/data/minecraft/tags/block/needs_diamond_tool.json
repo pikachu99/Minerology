@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minerology:chromium_ore",
+    "minerology:raw_chromium_block",
+    "minerology:chromium_block",
+    "minerology:iridium_ore",
+    "minerology:raw_iridium_block",
+    "minerology:iridium_block",
+    "minerology:platinum_ore",
+    "minerology:raw_platinum_block",
+    "minerology:platinum_block",
+    "minerology:thorium_ore",
+    "minerology:raw_thorium_block",
+    "minerology:thorium_block"
+  ]
+}

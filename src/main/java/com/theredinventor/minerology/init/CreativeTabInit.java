@@ -58,15 +58,15 @@ public class CreativeTabInit {
         MINEROLOGY_GENERATION_TAB_ITEMS.add(itemLike);
         return itemLike;
     }
-    public static <T extends Item> RegistryObject<T> addToTab_Material(RegistryObject<T> itemLike){
+    public static <T extends Item> RegistryObject<T> addToMaterial(RegistryObject<T> itemLike){
         MINEROLOGY_MATERIALS_TAB_ITEMS.add(itemLike);
         return itemLike;
     }
-    public static <T extends Item> RegistryObject<T> addToTab_Gear(RegistryObject<T> itemLike){
+    public static <T extends Item> RegistryObject<T> addToGear(RegistryObject<T> itemLike){
         MINEROLOGY_GEAR_TAB_ITEMS.add(itemLike);
         return itemLike;
     }
-    public static <T extends Item> RegistryObject<T> addToTab_Decor(RegistryObject<T> itemLike){
+    public static <T extends Item> RegistryObject<T> addToDecor(RegistryObject<T> itemLike){
         MINEROLOGY_DECOR_TAB_ITEMS.add(itemLike);
         return itemLike;
     }

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minerology:cobalt_ore",
+    "minerology:raw_cobalt_block",
+    "minerology:cobalt_block",
+    "minerology:promethium_ore",
+    "minerology:raw_promethium_block",
+    "minerology:promethium_block",
+    "minerology:titanium_ore",
+    "minerology:raw_titanium_block",
+    "minerology:titanium_block"
+  ]
+}

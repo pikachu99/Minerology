@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minerology:block/raw_mercury_block"
+  }
+}

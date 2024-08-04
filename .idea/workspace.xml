@@ -33,12 +33,6 @@
                 <item name="Minerology" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Minerology" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -53,9 +47,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2jygtvBrDsooiHS1TmPl1LscufI" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -63,16 +60,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Minerology [build].executor": "Run",
-    "Gradle.Minerology [runClient].executor": "Run",
+    "Gradle.Minerology [runClient].executor": "Debug",
     "Gradle.Minerology [runData].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "1.21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Minerology/build.gradle",
+    "last_opened_file_path": "C:/Users/Owner/Documents/GitHub/Minerology",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\Documents\GitHub\Minerology\src\main\resources\assets\minerology\textures" />
       <recent name="D:\Minerology\src\main\resources\data\minerology\forge" />
       <recent name="D:\Minerology\src\main\resources\data\minerology" />
       <recent name="D:\Minerology\src\main\resources\data\minecraft\tags\blocks" />

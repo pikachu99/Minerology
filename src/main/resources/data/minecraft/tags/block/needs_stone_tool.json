@@ -1,6 +1,26 @@
 {
   "replace": false,
   "values": [
-    "minerology:aluminum_block"
+    "minerology:aluminum_ore",
+    "minerology:raw_aluminum_block",
+    "minerology:aluminum_block",
+    "minerology:lithium_ore",
+    "minerology:raw_lithium_block",
+    "minerology:lithium_block",
+    "minerology:magnesium_ore",
+    "minerology:raw_magnesium_block",
+    "minerology:magnesium_block",
+    "minerology:manganese_ore",
+    "minerology:raw_manganese_block",
+    "minerology:manganese_block",
+    "minerology:osmium_ore",
+    "minerology:raw_osmium_block",
+    "minerology:osmium_block",
+    "minerology:tin_ore",
+    "minerology:raw_tin_block",
+    "minerology:tin_block",
+    "minerology:zinc_ore",
+    "minerology:raw_zinc_block",
+    "minerology:zinc_block"
   ]
 }
