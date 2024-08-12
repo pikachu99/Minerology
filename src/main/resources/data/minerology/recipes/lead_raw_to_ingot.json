@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:raw_lead"
+  },
+  "result": {
+    "id": "minerology:lead_ingot"
+  }
+}

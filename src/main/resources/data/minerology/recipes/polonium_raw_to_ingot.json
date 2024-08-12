@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:raw_polonium"
+  },
+  "result": {
+    "id": "minerology:polonium_ingot"
+  }
+}

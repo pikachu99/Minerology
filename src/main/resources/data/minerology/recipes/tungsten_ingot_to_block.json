@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minerology:tungsten_ingot"
+    }
+  },
+  "result": {
+    "id": "minerology:tungsten_block",
+    "count": 1
+  }
+}

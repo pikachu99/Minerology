@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "minerology:lead_block",
+  "ingredients": [],
+  "result": {
+    "id": "minerology:lead_ingot",
+    "count": 9
+  }
+}

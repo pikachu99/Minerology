@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minerology:actinium_ore"
+  },
+  "result": {
+    "id": "minerology:actinium_ingot"
+  }
+}

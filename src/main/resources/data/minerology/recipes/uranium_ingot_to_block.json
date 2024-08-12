@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minerology:uranium_ingot"
+    }
+  },
+  "result": {
+    "id": "minerology:uranium_block",
+    "count": 1
+  }
+}

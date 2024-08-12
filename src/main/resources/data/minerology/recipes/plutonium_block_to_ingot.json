@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "minerology:plutonium_block",
+  "ingredients": [],
+  "result": {
+    "id": "minerology:plutonium_ingot",
+    "count": 9
+  }
+}

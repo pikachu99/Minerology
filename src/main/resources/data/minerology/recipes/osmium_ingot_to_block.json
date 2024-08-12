@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minerology:osmium_ingot"
+    }
+  },
+  "result": {
+    "id": "minerology:osmium_block",
+    "count": 1
+  }
+}

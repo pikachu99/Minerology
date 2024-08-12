@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "minerology:nickel_block",
+  "ingredients": [],
+  "result": {
+    "id": "minerology:nickel_ingot",
+    "count": 9
+  }
+}

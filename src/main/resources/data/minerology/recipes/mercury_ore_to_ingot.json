@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minerology:mercury_ore"
+  },
+  "result": {
+    "id": "minerology:mercury_ingot"
+  }
+}

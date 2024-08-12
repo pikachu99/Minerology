@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "minerology:thorium_block",
+  "ingredients": [],
+  "result": {
+    "id": "minerology:thorium_ingot",
+    "count": 9
+  }
+}

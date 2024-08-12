@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "minerology:aluminum_block",
+  "ingredients": [],
+  "result": {
+    "id": "minerology:aluminum_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minerology:chromium_ingot"
+    }
+  },
+  "result": {
+    "id": "minerology:chromium_block",
+    "count": 1
+  }
+}

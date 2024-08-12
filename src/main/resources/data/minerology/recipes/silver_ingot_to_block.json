@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minerology:silver_ingot"
+    }
+  },
+  "result": {
+    "id": "minerology:silver_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minerology:mercury_ingot"
+    }
+  },
+  "result": {
+    "id": "minerology:mercury_block",
+    "count": 1
+  }
+}

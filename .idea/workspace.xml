@@ -31,7 +31,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Minerology" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -59,23 +59,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.Minerology [build].executor": "Run",
-    "Gradle.Minerology [runClient].executor": "Debug",
+    "Gradle.Minerology [runClient].executor": "Run",
     "Gradle.Minerology [runData].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "1.21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Owner/Documents/GitHub/Minerology",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "D:/MCModGen",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\Documents\GitHub\Minerology\src\main\resources\data\minerology\forge\biome" />
       <recent name="C:\Users\Owner\Documents\GitHub\Minerology\src\main\resources\assets\minerology\textures" />
       <recent name="D:\Minerology\src\main\resources\data\minerology\forge" />
       <recent name="D:\Minerology\src\main\resources\data\minerology" />
       <recent name="D:\Minerology\src\main\resources\data\minecraft\tags\blocks" />
-      <recent name="D:\Minerology\src\main\resources\data\minecraft\tags\blocks\mineable" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Minerology [runClient]">

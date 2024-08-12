@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:raw_osmium"
+  },
+  "result": {
+    "id": "minerology:osmium_ingot"
+  }
+}

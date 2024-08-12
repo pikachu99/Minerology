@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:raw_nickel"
+  },
+  "result": {
+    "id": "minerology:nickel_ingot"
+  }
+}

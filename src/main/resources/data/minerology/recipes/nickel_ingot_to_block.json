@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minerology:nickel_ingot"
+    }
+  },
+  "result": {
+    "id": "minerology:nickel_block",
+    "count": 1
+  }
+}

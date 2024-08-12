@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minerology:neptunium_ore",
+    "minerology:plutonium_ore"
+  ]
+}

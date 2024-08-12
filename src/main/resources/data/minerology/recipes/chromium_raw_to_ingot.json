@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:raw_chromium"
+  },
+  "result": {
+    "id": "minerology:chromium_ingot"
+  }
+}

@@ -3,9 +3,12 @@ package com.theredinventor.minerology.init;
 import com.theredinventor.minerology.Minerology;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import static com.theredinventor.minerology.init.CreativeTabInit.addToGear;
 import static com.theredinventor.minerology.init.CreativeTabInit.addToTab;
 
 public class ItemInit {
@@ -17,6 +20,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Actinium_Block = addToTab(ITEMS.register("raw_actinium_block",
             () -> new BlockItem(BlockInit.Raw_Actinium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Actinium_Nugget = addToTab(ITEMS.register("actinium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Actinium_Ingot = addToTab(ITEMS.register("actinium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Actinium_Block = addToTab(ITEMS.register("actinium_block",
@@ -28,10 +33,18 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Aluminum_Block = addToTab(ITEMS.register("raw_aluminum_block",
             () -> new BlockItem(BlockInit.Raw_Aluminum_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Aluminum_Nugget = addToTab(ITEMS.register("aluminum_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Aluminum_Ingot = addToTab(ITEMS.register("aluminum_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Aluminum_Block = addToTab(ITEMS.register("aluminum_block",
             () -> new BlockItem(BlockInit.Aluminum_Block.get(),new Item.Properties())));
+    //Registry for Aluminum tools
+    public static final RegistryObject<SwordItem> Aluminum_Sword = addToGear(ITEMS.register("aluminum_sword",
+            () -> new SwordItem(
+                    TierInit.Aluminum,
+                    new Item.Properties()
+            )));
     //Registry for Chromium
     public static final RegistryObject<BlockItem> Chromium_Ore = addToTab(ITEMS.register("chromium_ore",
             () -> new BlockItem(BlockInit.Chromium_Ore.get(),new Item.Properties())));
@@ -39,6 +52,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Chromium_Block = addToTab(ITEMS.register("raw_chromium_block",
             () -> new BlockItem(BlockInit.Raw_Chromium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Chromium_Nugget = addToTab(ITEMS.register("chromium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Chromium_Ingot = addToTab(ITEMS.register("chromium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Chromium_Block = addToTab(ITEMS.register("chromium_block",
@@ -50,6 +65,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Cobalt_Block = addToTab(ITEMS.register("raw_cobalt_block",
             () -> new BlockItem(BlockInit.Raw_Cobalt_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Cobalt_Nugget = addToTab(ITEMS.register("cobalt_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Cobalt_Ingot = addToTab(ITEMS.register("cobalt_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Cobalt_Block = addToTab(ITEMS.register("cobalt_block",
@@ -61,6 +78,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Iridium_Block = addToTab(ITEMS.register("raw_iridium_block",
             () -> new BlockItem(BlockInit.Raw_Iridium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Iridium_Nugget = addToTab(ITEMS.register("iridium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Iridium_Ingot = addToTab(ITEMS.register("iridium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Iridium_Block = addToTab(ITEMS.register("iridium_block",
@@ -72,6 +91,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Lead_Block = addToTab(ITEMS.register("raw_lead_block",
             () -> new BlockItem(BlockInit.Raw_Lead_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Lead_Nugget = addToTab(ITEMS.register("lead_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Lead_Ingot = addToTab(ITEMS.register("lead_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Lead_Block = addToTab(ITEMS.register("lead_block",
@@ -83,6 +104,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Lithium_Block = addToTab(ITEMS.register("raw_lithium_block",
             () -> new BlockItem(BlockInit.Raw_Lithium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Lithium_Nugget = addToTab(ITEMS.register("lithium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Lithium_Ingot = addToTab(ITEMS.register("lithium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Lithium_Block = addToTab(ITEMS.register("lithium_block",
@@ -94,6 +117,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Magnesium_Block = addToTab(ITEMS.register("raw_magnesium_block",
             () -> new BlockItem(BlockInit.Raw_Magnesium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Magnesium_Nugget = addToTab(ITEMS.register("magnesium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Magnesium_Ingot = addToTab(ITEMS.register("magnesium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Magnesium_Block = addToTab(ITEMS.register("magnesium_block",
@@ -105,6 +130,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Manganese_Block = addToTab(ITEMS.register("raw_manganese_block",
             () -> new BlockItem(BlockInit.Raw_Manganese_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Manganese_Nugget = addToTab(ITEMS.register("manganese_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Manganese_Ingot = addToTab(ITEMS.register("manganese_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Manganese_Block = addToTab(ITEMS.register("manganese_block",
@@ -116,6 +143,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Mercury_Block = addToTab(ITEMS.register("raw_mercury_block",
             () -> new BlockItem(BlockInit.Raw_Mercury_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Mercury_Nugget = addToTab(ITEMS.register("mercury_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Mercury_Ingot = addToTab(ITEMS.register("mercury_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Mercury_Block = addToTab(ITEMS.register("mercury_block",
@@ -127,6 +156,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Neptunium_Block = addToTab(ITEMS.register("raw_neptunium_block",
             () -> new BlockItem(BlockInit.Raw_Neptunium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Neptunium_Nugget = addToTab(ITEMS.register("neptunium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Neptunium_Ingot = addToTab(ITEMS.register("neptunium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Neptunium_Block = addToTab(ITEMS.register("neptunium_block",
@@ -138,6 +169,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Nickel_Block = addToTab(ITEMS.register("raw_nickel_block",
             () -> new BlockItem(BlockInit.Raw_Nickel_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Nickel_Nugget = addToTab(ITEMS.register("nickel_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Nickel_Ingot = addToTab(ITEMS.register("nickel_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Nickel_Block = addToTab(ITEMS.register("nickel_block",
@@ -149,6 +182,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Osmium_Block = addToTab(ITEMS.register("raw_osmium_block",
             () -> new BlockItem(BlockInit.Raw_Osmium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Osmium_Nugget = addToTab(ITEMS.register("osmium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Osmium_Ingot = addToTab(ITEMS.register("osmium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Osmium_Block = addToTab(ITEMS.register("osmium_block",
@@ -160,6 +195,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Platinum_Block = addToTab(ITEMS.register("raw_platinum_block",
             () -> new BlockItem(BlockInit.Raw_Platinum_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Platinum_Nugget = addToTab(ITEMS.register("platinum_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Platinum_Ingot = addToTab(ITEMS.register("platinum_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Platinum_Block = addToTab(ITEMS.register("platinum_block",
@@ -171,6 +208,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Plutonium_Block = addToTab(ITEMS.register("raw_plutonium_block",
             () -> new BlockItem(BlockInit.Raw_Plutonium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Plutonium_Nugget = addToTab(ITEMS.register("plutonium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Plutonium_Ingot = addToTab(ITEMS.register("plutonium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Plutonium_Block = addToTab(ITEMS.register("plutonium_block",
@@ -182,6 +221,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Polonium_Block = addToTab(ITEMS.register("raw_polonium_block",
             () -> new BlockItem(BlockInit.Raw_Polonium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Polonium_Nugget = addToTab(ITEMS.register("polonium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Polonium_Ingot = addToTab(ITEMS.register("polonium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Polonium_Block = addToTab(ITEMS.register("polonium_block",
@@ -193,6 +234,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Promethium_Block = addToTab(ITEMS.register("raw_promethium_block",
             () -> new BlockItem(BlockInit.Raw_Promethium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Promethium_Nugget = addToTab(ITEMS.register("promethium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Promethium_Ingot = addToTab(ITEMS.register("promethium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Promethium_Block = addToTab(ITEMS.register("promethium_block",
@@ -204,6 +247,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Radium_Block = addToTab(ITEMS.register("raw_radium_block",
             () -> new BlockItem(BlockInit.Raw_Radium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Radium_Nugget = addToTab(ITEMS.register("radium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Radium_Ingot = addToTab(ITEMS.register("radium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Radium_Block = addToTab(ITEMS.register("radium_block",
@@ -215,6 +260,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Silver_Block = addToTab(ITEMS.register("raw_silver_block",
             () -> new BlockItem(BlockInit.Raw_Silver_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Silver_Nugget = addToTab(ITEMS.register("silver_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Silver_Ingot = addToTab(ITEMS.register("silver_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Silver_Block = addToTab(ITEMS.register("silver_block",
@@ -226,6 +273,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Thorium_Block = addToTab(ITEMS.register("raw_thorium_block",
             () -> new BlockItem(BlockInit.Raw_Thorium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Thorium_Nugget = addToTab(ITEMS.register("thorium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Thorium_Ingot = addToTab(ITEMS.register("thorium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Thorium_Block = addToTab(ITEMS.register("thorium_block",
@@ -237,6 +286,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Tin_Block = addToTab(ITEMS.register("raw_tin_block",
             () -> new BlockItem(BlockInit.Raw_Tin_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Tin_Nugget = addToTab(ITEMS.register("tin_ingot",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Tin_Ingot = addToTab(ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Tin_Block = addToTab(ITEMS.register("tin_block",
@@ -250,6 +301,8 @@ public class ItemInit {
             () -> new BlockItem(BlockInit.Raw_Titanium_Block.get(),new Item.Properties())));
     public static final RegistryObject<Item> Titanium_Ingot = addToTab(ITEMS.register("titanium_ingot",
             () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> Titanium_Nugget = addToTab(ITEMS.register("titanium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Titanium_Block = addToTab(ITEMS.register("titanium_block",
             () -> new BlockItem(BlockInit.Titanium_Block.get(),new Item.Properties())));
     //Registry for Tungsten
@@ -259,6 +312,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Tungsten_Block = addToTab(ITEMS.register("raw_tungsten_block",
             () -> new BlockItem(BlockInit.Raw_Tungsten_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Tungsten_Nugget = addToTab(ITEMS.register("tungsten_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Tungsten_Ingot = addToTab(ITEMS.register("tungsten_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Tungsten_Block = addToTab(ITEMS.register("tungsten_block",
@@ -270,6 +325,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Uranium_Block = addToTab(ITEMS.register("raw_uranium_block",
             () -> new BlockItem(BlockInit.Raw_Uranium_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Uranium_Nugget = addToTab(ITEMS.register("uranium_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Uranium_Ingot = addToTab(ITEMS.register("uranium_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Uranium_Block = addToTab(ITEMS.register("uranium_block",
@@ -281,6 +338,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Zinc_Block = addToTab(ITEMS.register("raw_zinc_block",
             () -> new BlockItem(BlockInit.Raw_Zinc_Block.get(),new Item.Properties())));
+    public static final RegistryObject<Item> Zinc_Nugget = addToTab(ITEMS.register("zinc_nugget",
+            () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Zinc_Ingot = addToTab(ITEMS.register("zinc_ingot",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Zinc_Block = addToTab(ITEMS.register("zinc_block",

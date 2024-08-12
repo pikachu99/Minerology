@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minerology:raw_manganese"
+  },
+  "result": {
+    "id": "minerology:manganese_ingot"
+  }
+}

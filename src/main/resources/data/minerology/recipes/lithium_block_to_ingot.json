@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "minerology:lithium_block",
+  "ingredients": [],
+  "result": {
+    "id": "minerology:lithium_ingot",
+    "count": 9
+  }
+}
