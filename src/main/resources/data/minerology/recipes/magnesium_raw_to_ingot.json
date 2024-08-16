@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minerology:raw_magnesium"
-  },
-  "result": {
-    "id": "minerology:magnesium_ingot"
-  }
-}

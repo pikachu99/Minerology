@@ -286,7 +286,7 @@ public class ItemInit {
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<BlockItem> Raw_Tin_Block = addToTab(ITEMS.register("raw_tin_block",
             () -> new BlockItem(BlockInit.Raw_Tin_Block.get(),new Item.Properties())));
-    public static final RegistryObject<Item> Tin_Nugget = addToTab(ITEMS.register("tin_ingot",
+    public static final RegistryObject<Item> Tin_Nugget = addToTab(ITEMS.register("tin_nugget",
             () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> Tin_Ingot = addToTab(ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties())));

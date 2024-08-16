@@ -19,78 +19,103 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         //Actinium
         simpleItem(ItemInit.Raw_Actinium);
+        simpleItem(ItemInit.Actinium_Nugget);
         simpleItem(ItemInit.Actinium_Ingot);
         //Aluminum
         simpleItem(ItemInit.Raw_Aluminum);
+        simpleItem(ItemInit.Aluminum_Nugget);
         simpleItem(ItemInit.Aluminum_Ingot);
         //Chromium
         simpleItem(ItemInit.Raw_Chromium);
+        simpleItem(ItemInit.Chromium_Nugget);
         simpleItem(ItemInit.Chromium_Ingot);
         //Cobalt
         simpleItem(ItemInit.Raw_Cobalt);
+        simpleItem(ItemInit.Cobalt_Nugget);
         simpleItem(ItemInit.Cobalt_Ingot);
         //Iridium
         simpleItem(ItemInit.Raw_Iridium);
+        simpleItem(ItemInit.Iridium_Nugget);
         simpleItem(ItemInit.Iridium_Ingot);
         //Lead
         simpleItem(ItemInit.Raw_Lead);
+        simpleItem(ItemInit.Lead_Nugget);
         simpleItem(ItemInit.Lead_Ingot);
         //Lithium
         simpleItem(ItemInit.Raw_Lithium);
+        simpleItem(ItemInit.Lithium_Nugget);
         simpleItem(ItemInit.Lithium_Ingot);
         //Magnesium
         simpleItem(ItemInit.Raw_Magnesium);
+        simpleItem(ItemInit.Magnesium_Nugget);
         simpleItem(ItemInit.Magnesium_Ingot);
         //Manganese
         simpleItem(ItemInit.Raw_Manganese);
+        simpleItem(ItemInit.Manganese_Nugget);
         simpleItem(ItemInit.Manganese_Ingot);
         //Mercury
         simpleItem(ItemInit.Raw_Mercury);
+        simpleItem(ItemInit.Mercury_Nugget);
         simpleItem(ItemInit.Mercury_Ingot);
         //Neptunium
         simpleItem(ItemInit.Raw_Neptunium);
+        simpleItem(ItemInit.Neptunium_Nugget);
         simpleItem(ItemInit.Neptunium_Ingot);
         //Nickel
         simpleItem(ItemInit.Raw_Nickel);
+        simpleItem(ItemInit.Nickel_Nugget);
         simpleItem(ItemInit.Nickel_Ingot);
         //Osmium
         simpleItem(ItemInit.Raw_Osmium);
+        simpleItem(ItemInit.Osmium_Nugget);
         simpleItem(ItemInit.Osmium_Ingot);
         //Platinum
         simpleItem(ItemInit.Raw_Platinum);
+        simpleItem(ItemInit.Platinum_Nugget);
         simpleItem(ItemInit.Platinum_Ingot);
         //Plutonium
         simpleItem(ItemInit.Raw_Plutonium);
+        simpleItem(ItemInit.Plutonium_Nugget);
         simpleItem(ItemInit.Plutonium_Ingot);
         //Polonium
         simpleItem(ItemInit.Raw_Polonium);
+        simpleItem(ItemInit.Polonium_Nugget);
         simpleItem(ItemInit.Polonium_Ingot);
         //Promethium
         simpleItem(ItemInit.Raw_Promethium);
+        simpleItem(ItemInit.Promethium_Nugget);
         simpleItem(ItemInit.Promethium_Ingot);
         //Radium
         simpleItem(ItemInit.Raw_Radium);
+        simpleItem(ItemInit.Radium_Nugget);
         simpleItem(ItemInit.Radium_Ingot);
         //Silver
         simpleItem(ItemInit.Raw_Silver);
+        simpleItem(ItemInit.Silver_Nugget);
         simpleItem(ItemInit.Silver_Ingot);
         //Thorium
         simpleItem(ItemInit.Raw_Thorium);
+        simpleItem(ItemInit.Thorium_Nugget);
         simpleItem(ItemInit.Thorium_Ingot);
         //Tin
         simpleItem(ItemInit.Raw_Tin);
+        simpleItem(ItemInit.Tin_Nugget);
         simpleItem(ItemInit.Tin_Ingot);
         //Titanium
         simpleItem(ItemInit.Raw_Titanium);
+        simpleItem(ItemInit.Titanium_Nugget);
         simpleItem(ItemInit.Titanium_Ingot);
         //Tungsten
         simpleItem(ItemInit.Raw_Tungsten);
+        simpleItem(ItemInit.Tungsten_Nugget);
         simpleItem(ItemInit.Tungsten_Ingot);
         //Uranium
         simpleItem(ItemInit.Raw_Uranium);
+        simpleItem(ItemInit.Uranium_Nugget);
         simpleItem(ItemInit.Uranium_Ingot);
         //Zinc
         simpleItem(ItemInit.Raw_Zinc);
+        simpleItem(ItemInit.Zinc_Nugget);
         simpleItem(ItemInit.Zinc_Ingot);
     }
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){

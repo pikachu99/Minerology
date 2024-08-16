@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "group": "minerology:iridium_block",
-  "ingredients": [],
-  "result": {
-    "id": "minerology:iridium_ingot",
-    "count": 9
-  }
-}

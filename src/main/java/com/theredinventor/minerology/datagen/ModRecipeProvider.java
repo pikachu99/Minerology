@@ -77,124 +77,172 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(recipeOutput, Actinium_Smeltables, RecipeCategory.MISC, ItemInit.Actinium_Ingot.get(), 0.25f, 200, "actinium");
         blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
         itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Actinium_Nugget.get(), ItemInit.Actinium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), ItemInit.Actinium_Nugget.get());
 
         oreBlasting(recipeOutput, Aluminum_Smeltables, RecipeCategory.MISC, ItemInit.Aluminum_Ingot.get(), 0.25f, 100, "aluminum");
         oreSmelting(recipeOutput, Aluminum_Smeltables, RecipeCategory.MISC, ItemInit.Aluminum_Ingot.get(), 0.25f, 200, "aluminum");
         blockRecipe(recipeOutput, ItemInit.Aluminum_Ingot.get(), BlockInit.Aluminum_Block.get());
         itemRecipe(recipeOutput, BlockInit.Aluminum_Block.get(), ItemInit.Aluminum_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Aluminum_Nugget.get(), ItemInit.Aluminum_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Aluminum_Ingot.get(), ItemInit.Aluminum_Nugget.get());
 
         oreBlasting(recipeOutput, Chromium_Smeltables, RecipeCategory.MISC, ItemInit.Chromium_Ingot.get(), 0.25f, 100, "chromium");
         oreSmelting(recipeOutput, Chromium_Smeltables, RecipeCategory.MISC, ItemInit.Chromium_Ingot.get(), 0.25f, 200, "chromium");
         blockRecipe(recipeOutput, ItemInit.Chromium_Ingot.get(), BlockInit.Chromium_Block.get());
         itemRecipe(recipeOutput, BlockInit.Chromium_Block.get(), ItemInit.Chromium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Chromium_Nugget.get(), ItemInit.Chromium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Chromium_Ingot.get(), ItemInit.Chromium_Nugget.get());
 
         oreBlasting(recipeOutput, Cobalt_Smeltables, RecipeCategory.MISC, ItemInit.Cobalt_Ingot.get(), 0.25f, 100, "cobalt");
         oreSmelting(recipeOutput, Cobalt_Smeltables, RecipeCategory.MISC, ItemInit.Cobalt_Ingot.get(), 0.25f, 200, "cobalt");
         blockRecipe(recipeOutput, ItemInit.Cobalt_Ingot.get(), BlockInit.Cobalt_Block.get());
         itemRecipe(recipeOutput, BlockInit.Cobalt_Block.get(), ItemInit.Cobalt_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Cobalt_Nugget.get(), ItemInit.Cobalt_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Cobalt_Ingot.get(), ItemInit.Cobalt_Nugget.get());
 
         oreBlasting(recipeOutput, Iridium_Smeltables, RecipeCategory.MISC, ItemInit.Iridium_Ingot.get(), 0.25f, 100, "iridium");
         oreSmelting(recipeOutput, Iridium_Smeltables, RecipeCategory.MISC, ItemInit.Iridium_Ingot.get(), 0.25f, 200, "iridium");
         blockRecipe(recipeOutput, ItemInit.Iridium_Ingot.get(), BlockInit.Iridium_Block.get());
         itemRecipe(recipeOutput, BlockInit.Iridium_Block.get(), ItemInit.Iridium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Iridium_Nugget.get(), ItemInit.Iridium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Iridium_Ingot.get(), ItemInit.Iridium_Nugget.get());
 
         oreBlasting(recipeOutput, Lead_Smeltables, RecipeCategory.MISC, ItemInit.Lead_Ingot.get(), 0.25f, 100, "lead");
         oreSmelting(recipeOutput, Lead_Smeltables, RecipeCategory.MISC, ItemInit.Lead_Ingot.get(), 0.25f, 200, "lead");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Lead_Ingot.get(), BlockInit.Lead_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Lead_Block.get(), ItemInit.Lead_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Lead_Nugget.get(), ItemInit.Lead_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Lead_Ingot.get(), ItemInit.Lead_Nugget.get());
 
         oreBlasting(recipeOutput, Lithium_Smeltables, RecipeCategory.MISC, ItemInit.Lithium_Ingot.get(), 0.25f, 100, "lithium");
         oreSmelting(recipeOutput, Lithium_Smeltables, RecipeCategory.MISC, ItemInit.Lithium_Ingot.get(), 0.25f, 200, "lithium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Lithium_Ingot.get(), BlockInit.Lithium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Lithium_Block.get(), ItemInit.Lithium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Lithium_Nugget.get(), ItemInit.Lithium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Lithium_Ingot.get(), ItemInit.Lithium_Nugget.get());
 
         oreBlasting(recipeOutput, Magnesium_Smeltables, RecipeCategory.MISC, ItemInit.Magnesium_Ingot.get(), 0.25f, 100, "magnesium");
         oreSmelting(recipeOutput, Magnesium_Smeltables, RecipeCategory.MISC, ItemInit.Magnesium_Ingot.get(), 0.25f, 200, "magnesium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Magnesium_Ingot.get(), BlockInit.Magnesium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Magnesium_Block.get(), ItemInit.Magnesium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Magnesium_Nugget.get(), ItemInit.Magnesium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Magnesium_Ingot.get(), ItemInit.Magnesium_Nugget.get());
 
         oreBlasting(recipeOutput, Manganese_Smeltables, RecipeCategory.MISC, ItemInit.Manganese_Ingot.get(), 0.25f, 100, "manganese");
         oreSmelting(recipeOutput, Manganese_Smeltables, RecipeCategory.MISC, ItemInit.Manganese_Ingot.get(), 0.25f, 200, "manganese");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Manganese_Ingot.get(), BlockInit.Manganese_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Manganese_Block.get(), ItemInit.Manganese_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Manganese_Nugget.get(), ItemInit.Manganese_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Manganese_Ingot.get(), ItemInit.Manganese_Nugget.get());
 
         oreBlasting(recipeOutput, Mercury_Smeltables, RecipeCategory.MISC, ItemInit.Mercury_Ingot.get(), 0.25f, 100, "mercury");
         oreSmelting(recipeOutput, Mercury_Smeltables, RecipeCategory.MISC, ItemInit.Mercury_Ingot.get(), 0.25f, 200, "mercury");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Mercury_Ingot.get(), BlockInit.Mercury_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Mercury_Block.get(), ItemInit.Mercury_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Mercury_Nugget.get(), ItemInit.Mercury_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Mercury_Ingot.get(), ItemInit.Mercury_Nugget.get());
 
         oreBlasting(recipeOutput, Neptunium_Smeltables, RecipeCategory.MISC, ItemInit.Neptunium_Ingot.get(), 0.25f, 100, "neptunium");
         oreSmelting(recipeOutput, Neptunium_Smeltables, RecipeCategory.MISC, ItemInit.Neptunium_Ingot.get(), 0.25f, 200, "neptunium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Neptunium_Ingot.get(), BlockInit.Neptunium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Neptunium_Block.get(), ItemInit.Neptunium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Neptunium_Nugget.get(), ItemInit.Neptunium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Neptunium_Ingot.get(), ItemInit.Neptunium_Nugget.get());
 
         oreBlasting(recipeOutput, Nickel_Smeltables, RecipeCategory.MISC, ItemInit.Nickel_Ingot.get(), 0.25f, 100, "nickel");
         oreSmelting(recipeOutput, Nickel_Smeltables, RecipeCategory.MISC, ItemInit.Nickel_Ingot.get(), 0.25f, 200, "nickel");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Nickel_Ingot.get(), BlockInit.Nickel_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Nickel_Block.get(), ItemInit.Nickel_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Nickel_Nugget.get(), ItemInit.Nickel_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Nickel_Ingot.get(), ItemInit.Nickel_Nugget.get());
 
         oreBlasting(recipeOutput, Osmium_Smeltables, RecipeCategory.MISC, ItemInit.Osmium_Ingot.get(), 0.25f, 100, "osmium");
         oreSmelting(recipeOutput, Osmium_Smeltables, RecipeCategory.MISC, ItemInit.Osmium_Ingot.get(), 0.25f, 200, "osmium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Osmium_Ingot.get(), BlockInit.Osmium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Osmium_Block.get(), ItemInit.Osmium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Osmium_Nugget.get(), ItemInit.Osmium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Osmium_Ingot.get(), ItemInit.Osmium_Nugget.get());
 
         oreBlasting(recipeOutput, Platinum_Smeltables, RecipeCategory.MISC, ItemInit.Platinum_Ingot.get(), 0.25f, 100, "platinum");
         oreSmelting(recipeOutput, Platinum_Smeltables, RecipeCategory.MISC, ItemInit.Platinum_Ingot.get(), 0.25f, 200, "platinum");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Platinum_Ingot.get(), BlockInit.Platinum_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Platinum_Block.get(), ItemInit.Platinum_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Platinum_Nugget.get(), ItemInit.Platinum_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Platinum_Ingot.get(), ItemInit.Platinum_Nugget.get());
 
         oreBlasting(recipeOutput, Plutonium_Smeltables, RecipeCategory.MISC, ItemInit.Plutonium_Ingot.get(), 0.25f, 100, "plutonium");
         oreSmelting(recipeOutput, Plutonium_Smeltables, RecipeCategory.MISC, ItemInit.Plutonium_Ingot.get(), 0.25f, 200, "plutonium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Plutonium_Ingot.get(), BlockInit.Plutonium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Plutonium_Block.get(), ItemInit.Plutonium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Plutonium_Nugget.get(), ItemInit.Plutonium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Plutonium_Ingot.get(), ItemInit.Plutonium_Nugget.get());
 
         oreBlasting(recipeOutput, Polonium_Smeltables, RecipeCategory.MISC, ItemInit.Polonium_Ingot.get(), 0.25f, 100, "polonium");
         oreSmelting(recipeOutput, Polonium_Smeltables, RecipeCategory.MISC, ItemInit.Polonium_Ingot.get(), 0.25f, 200, "polonium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Polonium_Ingot.get(), BlockInit.Polonium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Polonium_Block.get(), ItemInit.Polonium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Polonium_Nugget.get(), ItemInit.Polonium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Polonium_Ingot.get(), ItemInit.Polonium_Nugget.get());
 
         oreBlasting(recipeOutput, Promethium_Smeltables, RecipeCategory.MISC, ItemInit.Promethium_Ingot.get(), 0.25f, 100, "promethium");
         oreSmelting(recipeOutput, Promethium_Smeltables, RecipeCategory.MISC, ItemInit.Promethium_Ingot.get(), 0.25f, 200, "promethium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Promethium_Ingot.get(), BlockInit.Promethium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Promethium_Block.get(), ItemInit.Promethium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Promethium_Nugget.get(), ItemInit.Promethium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Promethium_Ingot.get(), ItemInit.Promethium_Nugget.get());
 
         oreBlasting(recipeOutput, Radium_Smeltables, RecipeCategory.MISC, ItemInit.Radium_Ingot.get(), 0.25f, 100, "radium");
         oreSmelting(recipeOutput, Radium_Smeltables, RecipeCategory.MISC, ItemInit.Radium_Ingot.get(), 0.25f, 200, "radium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Radium_Ingot.get(), BlockInit.Radium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Radium_Block.get(), ItemInit.Radium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Radium_Nugget.get(), ItemInit.Radium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Radium_Ingot.get(), ItemInit.Radium_Nugget.get());
 
         oreBlasting(recipeOutput, Silver_Smeltables, RecipeCategory.MISC, ItemInit.Silver_Ingot.get(), 0.25f, 100, "silver");
         oreSmelting(recipeOutput, Silver_Smeltables, RecipeCategory.MISC, ItemInit.Silver_Ingot.get(), 0.25f, 200, "silver");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Silver_Ingot.get(), BlockInit.Silver_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Silver_Block.get(), ItemInit.Silver_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Silver_Nugget.get(), ItemInit.Silver_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Silver_Ingot.get(), ItemInit.Silver_Nugget.get());
 
         oreBlasting(recipeOutput, Thorium_Smeltables, RecipeCategory.MISC, ItemInit.Thorium_Ingot.get(), 0.25f, 100, "thorium");
         oreSmelting(recipeOutput, Thorium_Smeltables, RecipeCategory.MISC, ItemInit.Thorium_Ingot.get(), 0.25f, 200, "thorium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Thorium_Ingot.get(), BlockInit.Thorium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Thorium_Block.get(), ItemInit.Thorium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Thorium_Nugget.get(), ItemInit.Thorium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Thorium_Ingot.get(), ItemInit.Thorium_Nugget.get());
 
         oreBlasting(recipeOutput, Titanium_Smeltables, RecipeCategory.MISC, ItemInit.Titanium_Ingot.get(), 0.25f, 100, "titanium");
         oreSmelting(recipeOutput, Titanium_Smeltables, RecipeCategory.MISC, ItemInit.Titanium_Ingot.get(), 0.25f, 200, "titanium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Titanium_Ingot.get(), BlockInit.Titanium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Titanium_Block.get(), ItemInit.Titanium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Titanium_Nugget.get(), ItemInit.Titanium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Titanium_Ingot.get(), ItemInit.Titanium_Nugget.get());
 
         oreBlasting(recipeOutput, Tungsten_Smeltables, RecipeCategory.MISC, ItemInit.Tungsten_Ingot.get(), 0.25f, 100, "tungsten");
         oreSmelting(recipeOutput, Tungsten_Smeltables, RecipeCategory.MISC, ItemInit.Tungsten_Ingot.get(), 0.25f, 200, "tungsten");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Tungsten_Ingot.get(), BlockInit.Tungsten_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Tungsten_Block.get(), ItemInit.Tungsten_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Tungsten_Nugget.get(), ItemInit.Tungsten_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Tungsten_Ingot.get(), ItemInit.Tungsten_Nugget.get());
 
         oreBlasting(recipeOutput, Uranium_Smeltables, RecipeCategory.MISC, ItemInit.Uranium_Ingot.get(), 0.25f, 100, "uranium");
         oreSmelting(recipeOutput, Uranium_Smeltables, RecipeCategory.MISC, ItemInit.Uranium_Ingot.get(), 0.25f, 200, "uranium");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Uranium_Ingot.get(), BlockInit.Uranium_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Uranium_Block.get(), ItemInit.Uranium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Uranium_Nugget.get(), ItemInit.Uranium_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Uranium_Ingot.get(), ItemInit.Uranium_Nugget.get());
 
         oreBlasting(recipeOutput, Zinc_Smeltables, RecipeCategory.MISC, ItemInit.Zinc_Ingot.get(), 0.25f, 100, "zinc");
         oreSmelting(recipeOutput, Zinc_Smeltables, RecipeCategory.MISC, ItemInit.Zinc_Ingot.get(), 0.25f, 200, "zinc");
-        blockRecipe(recipeOutput, ItemInit.Actinium_Ingot.get(), BlockInit.Actinium_Block.get());
-        itemRecipe(recipeOutput, BlockInit.Actinium_Block.get(), ItemInit.Actinium_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Zinc_Ingot.get(), BlockInit.Zinc_Block.get());
+        itemRecipe(recipeOutput, BlockInit.Zinc_Block.get(), ItemInit.Zinc_Ingot.get());
+        blockRecipe(recipeOutput, ItemInit.Zinc_Nugget.get(), ItemInit.Zinc_Ingot.get());
+        itemRecipe(recipeOutput, ItemInit.Zinc_Ingot.get(), ItemInit.Zinc_Nugget.get());
 
     }
-    protected static void blockRecipe(RecipeOutput recipeOutput, ItemLike pInput, Block pResult){
+    protected static void blockRecipe(RecipeOutput recipeOutput, ItemLike pInput, ItemLike pResult){
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, pResult)
                 .pattern("SSS")
                 .pattern("SSS")
@@ -202,7 +250,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', pInput)
                 .save(recipeOutput);
     }
-    protected static void itemRecipe(RecipeOutput recipeOutput, Block pInput, ItemLike pResult){
+    protected static void itemRecipe(RecipeOutput recipeOutput, ItemLike pInput, ItemLike pResult){
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, pResult, 9)
                 .requires(pInput)
                 .save(recipeOutput);

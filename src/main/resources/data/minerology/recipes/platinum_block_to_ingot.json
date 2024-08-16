@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "group": "minerology:platinum_block",
-  "ingredients": [],
-  "result": {
-    "id": "minerology:platinum_ingot",
-    "count": 9
-  }
-}

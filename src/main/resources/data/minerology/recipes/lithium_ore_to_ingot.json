@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "minerology:lithium_ore"
-  },
-  "result": {
-    "id": "minerology:lithium_ingot"
-  }
-}

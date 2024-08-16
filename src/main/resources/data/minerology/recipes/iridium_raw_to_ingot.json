@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minerology:raw_iridium"
-  },
-  "result": {
-    "id": "minerology:iridium_ingot"
-  }
-}

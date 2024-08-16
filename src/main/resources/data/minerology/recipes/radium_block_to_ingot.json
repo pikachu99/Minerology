@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "group": "minerology:radium_block",
-  "ingredients": [],
-  "result": {
-    "id": "minerology:radium_ingot",
-    "count": 9
-  }
-}

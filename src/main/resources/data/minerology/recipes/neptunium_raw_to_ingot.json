@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minerology:raw_neptunium"
-  },
-  "result": {
-    "id": "minerology:neptunium_ingot"
-  }
-}

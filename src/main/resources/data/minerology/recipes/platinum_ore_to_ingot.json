@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "minerology:platinum_ore"
-  },
-  "result": {
-    "id": "minerology:platinum_ingot"
-  }
-}

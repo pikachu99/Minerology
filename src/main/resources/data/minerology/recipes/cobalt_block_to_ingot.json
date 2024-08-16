@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "group": "minerology:cobalt_block",
-  "ingredients": [],
-  "result": {
-    "id": "minerology:cobalt_ingot",
-    "count": 9
-  }
-}

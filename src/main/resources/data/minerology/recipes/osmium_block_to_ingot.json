@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "group": "minerology:osmium_block",
-  "ingredients": [],
-  "result": {
-    "id": "minerology:osmium_ingot",
-    "count": 9
-  }
-}

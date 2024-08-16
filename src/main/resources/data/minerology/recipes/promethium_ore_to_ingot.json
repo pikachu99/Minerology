@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "minerology:promethium_ore"
-  },
-  "result": {
-    "id": "minerology:promethium_ingot"
-  }
-}

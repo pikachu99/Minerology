@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "group": "minerology:promethium_block",
-  "ingredients": [],
-  "result": {
-    "id": "minerology:aluminum_ingot",
-    "count": 9
-  }
-}

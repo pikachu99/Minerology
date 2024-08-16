@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "minerology:aluminum_ore"
-  },
-  "result": {
-    "id": "minerology:aluminum_ingot"
-  }
-}

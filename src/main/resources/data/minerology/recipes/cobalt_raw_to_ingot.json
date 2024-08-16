@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minerology:raw_cobalt"
-  },
-  "result": {
-    "id": "minerology:cobalt_ingot"
-  }
-}
